@@ -18,309 +18,348 @@ collections:
         fields:
 
           # ── PAGE META ──────────────────────────────────────────────────
-          - { label: "Page Title", name: "title", widget: "string" }
-          - { label: "Meta Description", name: "description", widget: "text" }
+          - { label: "Page Title", name: "title", widget: "string", required: false }
+          - { label: "Meta Description", name: "description", widget: "text", required: false }
 
           # ── HERO ───────────────────────────────────────────────────────
           - label: "Hero Section"
             name: "hero"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2 — Italic Word", name: "title_line2_italic", widget: "string" }
-              - { label: "Title Line 2 — Rest of Line", name: "title_line2_rest", widget: "string" }
-              - { label: "Subtitle Paragraph", name: "subtitle", widget: "text" }
-              - { label: "Background Image", name: "background_image", widget: "image" }
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2 — Italic Word", name: "title_line2_italic", widget: "string", required: false }
+              - { label: "Title Line 2 — Rest of Line", name: "title_line2_rest", widget: "string", required: false }
+              - { label: "Subtitle Paragraph", name: "subtitle", widget: "text", required: false }
+              - { label: "Background Image", name: "background_image", widget: "image", required: false }
               - label: "Stats (3 items)"
                 name: "stats"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Number / Value", name: "number", widget: "string" }
-                  - { label: "Label", name: "label", widget: "string" }
-              - { label: "Scale Bar Label", name: "scale_label", widget: "string" }
+                  - { label: "Number / Value", name: "number", widget: "string", required: false }
+                  - { label: "Label", name: "label", widget: "string", required: false }
+              - { label: "Scale Bar Label", name: "scale_label", widget: "string", required: false }
               - label: "Scale Items"
                 name: "scale_items"
                 widget: "list"
-                field: { label: "Item", name: "item", widget: "string" }
+                required: false
+                field: { label: "Item", name: "item", widget: "string", required: false }
 
           # ── MARQUEE ────────────────────────────────────────────────────
           - label: "Marquee Band"
             name: "marquee"
             widget: "object"
+            required: false
             fields:
               - label: "Marquee Items"
                 name: "items"
                 widget: "list"
-                field: { label: "Text", name: "item", widget: "string" }
+                required: false
+                field: { label: "Text", name: "item", widget: "string", required: false }
 
           # ── HEAT BATTERY ───────────────────────────────────────────────
           - label: "Heat Battery Section"
             name: "heat_battery"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body (supports **bold** and *italic*)", name: "body", widget: "text" }
-              - { label: "Flow Card Label", name: "flow_label", widget: "string" }
-              - { label: "Flow Card Body", name: "flow_body", widget: "string" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Body (supports **bold** and *italic*)", name: "body", widget: "text", required: false }
+              - { label: "Flow Card Label", name: "flow_label", widget: "string", required: false }
+              - { label: "Flow Card Body", name: "flow_body", widget: "string", required: false }
               - label: "Use Case Cards"
                 name: "use_cases"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Body", name: "body", widget: "text" }
+                  - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
+                  - { label: "Title", name: "title", widget: "string", required: false }
+                  - { label: "Body", name: "body", widget: "text", required: false }
 
           # ── CHARGE SOURCES ─────────────────────────────────────────────
           - label: "Charge Sources Section"
             name: "charge"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
               - label: "Charge Cards (2)"
                 name: "cards"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Body (supports **bold**)", name: "body", widget: "text" }
-                  - { label: "Tag Label", name: "tag", widget: "string" }
+                  - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
+                  - { label: "Title", name: "title", widget: "string", required: false }
+                  - { label: "Body (supports **bold**)", name: "body", widget: "text", required: false }
+                  - { label: "Tag Label", name: "tag", widget: "string", required: false }
                   - label: "Tag Style"
                     name: "tag_style"
                     widget: "select"
+                    required: false
                     options: ["solar", "grid"]
                   - label: "Card Type"
                     name: "type"
                     widget: "select"
+                    required: false
                     options: ["primary", "secondary"]
               - label: "Stats Row (3 items)"
                 name: "stats"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Number", name: "number", widget: "string" }
-                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Number", name: "number", widget: "string", required: false }
+                  - { label: "Label", name: "label", widget: "string", required: false }
                   - label: "Colour"
                     name: "color"
                     widget: "select"
+                    required: false
                     options: ["green", "flame", "ember", "steel", "muted"]
 
           # ── MATERIALS ──────────────────────────────────────────────────
           - label: "Materials Section"
             name: "materials"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Title Line 3", name: "title_line3", widget: "string" }
-              - { label: "Intro Body", name: "body", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Title Line 3", name: "title_line3", widget: "string", required: false }
+              - { label: "Intro Body", name: "body", widget: "text", required: false }
               - label: "Columns (2)"
                 name: "columns"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Column Title", name: "title", widget: "string" }
-                  - { label: "Subtitle", name: "subtitle", widget: "string" }
-                  - { label: "Body Text (supports **bold**)", name: "body", widget: "text" }
+                  - { label: "Column Title", name: "title", widget: "string", required: false }
+                  - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+                  - { label: "Body Text (supports **bold**)", name: "body", widget: "text", required: false }
                   - label: "Bullet Points"
                     name: "bullets"
                     widget: "list"
-                    field: { label: "Bullet", name: "bullet", widget: "string" }
+                    required: false
+                    field: { label: "Bullet", name: "bullet", widget: "string", required: false }
               - label: "Photo Row (2 photos)"
                 name: "photos"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Image", name: "image", widget: "image" }
-                  - { label: "Caption", name: "caption", widget: "string" }
-                  - { label: "Alt Text", name: "alt", widget: "string" }
+                  - { label: "Image", name: "image", widget: "image", required: false }
+                  - { label: "Caption", name: "caption", widget: "string", required: false }
+                  - { label: "Alt Text", name: "alt", widget: "string", required: false }
 
           # ── FIELD VALIDATION ───────────────────────────────────────────
           - label: "Field Validation Section"
             name: "field_validation"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Body (supports **bold**)", name: "body", widget: "text" }
-              - { label: "Chart Image", name: "chart_image", widget: "image" }
-              - { label: "Chart Caption", name: "chart_caption", widget: "string" }
-              - { label: "Field Trial Intro Text", name: "field_intro", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Body (supports **bold**)", name: "body", widget: "text", required: false }
+              - { label: "Chart Image", name: "chart_image", widget: "image", required: false }
+              - { label: "Chart Caption", name: "chart_caption", widget: "string", required: false }
+              - { label: "Field Trial Intro Text", name: "field_intro", widget: "text", required: false }
               - label: "Feature Cards"
                 name: "features"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Body", name: "body", widget: "text" }
+                  - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
+                  - { label: "Title", name: "title", widget: "string", required: false }
+                  - { label: "Body", name: "body", widget: "text", required: false }
 
           # ── SAFETY ─────────────────────────────────────────────────────
           - label: "Safety & Maintenance Section"
             name: "safety"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
               - label: "Feature Cards"
                 name: "features"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Body", name: "body", widget: "text" }
+                  - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
+                  - { label: "Title", name: "title", widget: "string", required: false }
+                  - { label: "Body", name: "body", widget: "text", required: false }
 
           # ── GATEWAY ────────────────────────────────────────────────────
           - label: "Smart Gateway Section"
             name: "gateway"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Body Paragraph 1", name: "body_1", widget: "text" }
-              - { label: "Body Paragraph 2", name: "body_2", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Body Paragraph 1", name: "body_1", widget: "text", required: false }
+              - { label: "Body Paragraph 2", name: "body_2", widget: "text", required: false }
               - label: "Flow Steps"
                 name: "steps"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
-                  - { label: "Step Label", name: "label", widget: "string" }
-                  - { label: "Step Text (supports **bold**)", name: "text", widget: "text" }
+                  - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
+                  - { label: "Step Label", name: "label", widget: "string", required: false }
+                  - { label: "Step Text (supports **bold**)", name: "text", widget: "text", required: false }
 
           # ── PRODUCTS ───────────────────────────────────────────────────
           - label: "Products Section"
             name: "products"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
               - label: "Product Cards"
                 name: "items"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "kWh Number (display)", name: "kwh", widget: "string" }
-                  - { label: "Unit Label", name: "unit", widget: "string" }
-                  - { label: "Product Name", name: "name", widget: "string" }
-                  - { label: "Description", name: "desc", widget: "text" }
-                  - { label: "Status Badge Text", name: "status", widget: "string" }
+                  - { label: "kWh Number (display)", name: "kwh", widget: "string", required: false }
+                  - { label: "Unit Label", name: "unit", widget: "string", required: false }
+                  - { label: "Product Name", name: "name", widget: "string", required: false }
+                  - { label: "Description", name: "desc", widget: "text", required: false }
+                  - { label: "Status Badge Text", name: "status", widget: "string", required: false }
                   - label: "Status Badge Style"
                     name: "status_style"
                     widget: "select"
+                    required: false
                     options: ["trial", "scaling", "dev"]
 
           # ── INDUSTRIAL ─────────────────────────────────────────────────
           - label: "Industrial Integration Section"
             name: "industrial"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Intro Body", name: "body", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Intro Body", name: "body", widget: "text", required: false }
               - label: "Industry Sectors (4 cards)"
                 name: "sectors"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Title (with emoji + temp range)", name: "title", widget: "string" }
-                  - { label: "Subtitle / Tagline", name: "subtitle", widget: "string" }
-                  - { label: "Body Text", name: "body", widget: "text" }
+                  - { label: "Title (with emoji + temp range)", name: "title", widget: "string", required: false }
+                  - { label: "Subtitle / Tagline", name: "subtitle", widget: "string", required: false }
+                  - { label: "Body Text", name: "body", widget: "text", required: false }
 
           # ── MARKET ─────────────────────────────────────────────────────
           - label: "Market Section"
             name: "market"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Body Paragraph 1", name: "body_1", widget: "text" }
-              - { label: "Body Paragraph 2", name: "body_2", widget: "text" }
-              - { label: "Body Paragraph 3", name: "body_3", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Body Paragraph 1", name: "body_1", widget: "text", required: false }
+              - { label: "Body Paragraph 2", name: "body_2", widget: "text", required: false }
+              - { label: "Body Paragraph 3", name: "body_3", widget: "text", required: false }
               - label: "Stat Boxes (4)"
                 name: "stats"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Number / Value", name: "number", widget: "string" }
-                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Number / Value", name: "number", widget: "string", required: false }
+                  - { label: "Label", name: "label", widget: "string", required: false }
 
           # ── COMPARE ────────────────────────────────────────────────────
           - label: "Comparison Table Section"
             name: "compare"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
               - label: "Table Rows"
                 name: "rows"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Company Name", name: "company", widget: "string" }
-                  - { label: "Scale", name: "scale", widget: "string" }
-                  - { label: "Temperature", name: "temperature", widget: "string" }
-                  - { label: "Target Market", name: "market", widget: "string" }
-                  - { label: "Manufacturing Location", name: "manufacturing", widget: "string" }
-                  - { label: "Highlight Row (iTerra)?", name: "highlight", widget: "boolean", default: false }
+                  - { label: "Company Name", name: "company", widget: "string", required: false }
+                  - { label: "Scale", name: "scale", widget: "string", required: false }
+                  - { label: "Temperature", name: "temperature", widget: "string", required: false }
+                  - { label: "Target Market", name: "market", widget: "string", required: false }
+                  - { label: "Manufacturing Location", name: "manufacturing", widget: "string", required: false }
+                  - { label: "Highlight Row (iTerra)?", name: "highlight", widget: "boolean", required: false, default: false }
 
           # ── TEAM ───────────────────────────────────────────────────────
           - label: "Team Section"
             name: "team"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
               - label: "Team Members"
                 name: "members"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Full Name", name: "name", widget: "string" }
-                  - { label: "Role / Title", name: "role", widget: "string" }
-                  - { label: "Photo", name: "photo", widget: "image" }
-                  - { label: "Bio", name: "bio", widget: "text" }
+                  - { label: "Full Name", name: "name", widget: "string", required: false }
+                  - { label: "Role / Title", name: "role", widget: "string", required: false }
+                  - { label: "Photo", name: "photo", widget: "image", required: false }
+                  - { label: "Bio", name: "bio", widget: "text", required: false }
 
           # ── PARTNERS ───────────────────────────────────────────────────
           - label: "Partners Section"
             name: "partners"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Title Line 1", name: "title_line1", widget: "string" }
-              - { label: "Title Line 2", name: "title_line2", widget: "string" }
-              - { label: "Intro Body", name: "body", widget: "text" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
+              - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
+              - { label: "Intro Body", name: "body", widget: "text", required: false }
               - label: "Partner Cards"
                 name: "items"
                 widget: "list"
+                required: false
                 fields:
-                  - { label: "Label (e.g. Manufacturing Partner · 🇵🇰)", name: "label", widget: "string" }
-                  - { label: "Partner Name", name: "name", widget: "string" }
-                  - { label: "Description", name: "desc", widget: "text" }
+                  - { label: "Label (e.g. Manufacturing Partner · 🇵🇰)", name: "label", widget: "string", required: false }
+                  - { label: "Partner Name", name: "name", widget: "string", required: false }
+                  - { label: "Description", name: "desc", widget: "text", required: false }
 
           # ── CONTACT ────────────────────────────────────────────────────
           - label: "Contact Section"
             name: "contact"
             widget: "object"
+            required: false
             fields:
-              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
-              - { label: "Heading Title", name: "title", widget: "text" }
-              - { label: "Subtitle / Email display", name: "subtitle", widget: "string" }
-              - { label: "Email Address (mailto)", name: "email", widget: "string" }
-              - { label: "Button Text", name: "button_text", widget: "string" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading Title", name: "title", widget: "text", required: false }
+              - { label: "Subtitle / Email display", name: "subtitle", widget: "string", required: false }
+              - { label: "Email Address (mailto)", name: "email", widget: "string", required: false }
+              - { label: "Button Text", name: "button_text", widget: "string", required: false }
               - label: "Location Tags"
                 name: "locations"
                 widget: "list"
-                field: { label: "Location", name: "location", widget: "string" }
+                required: false
+                field: { label: "Location", name: "location", widget: "string", required: false }
 
           # ── FOOTER ─────────────────────────────────────────────────────
           - label: "Footer"
             name: "footer"
             widget: "object"
+            required: false
             fields:
-              - { label: "Copyright Notice", name: "copyright", widget: "string" }
-              - { label: "IP / Trademark Notice", name: "ip_notice", widget: "string" }
+              - { label: "Copyright Notice", name: "copyright", widget: "string", required: false }
+              - { label: "IP / Trademark Notice", name: "ip_notice", widget: "string", required: false }
