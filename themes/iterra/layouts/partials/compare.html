@@ -1,0 +1,30 @@
+{{ $s := .Params.compare }}
+<section class="compare-section">
+  <div class="section-eyebrow" style="padding: 0 0;">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title }}</h2>
+  <p class="section-body">{{ $s.body }}</p>
+  <div class="compare-table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Scale</th>
+          <th>Temperature</th>
+          <th>Target Market</th>
+          <th>Manufacturing</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $s.rows }}
+        <tr{{ if .highlight }} class="highlight"{{ end }}>
+          <td>{{ .company }}</td>
+          <td>{{ .scale }}</td>
+          <td>{{ .temperature }}</td>
+          <td>{{ .market }}</td>
+          <td>{{ .manufacturing }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>

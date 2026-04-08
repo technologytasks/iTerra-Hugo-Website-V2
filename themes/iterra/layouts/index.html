@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{ partial "head.html" . }}
+</head>
+<body>
+
+{{ partial "mobile-menu.html" . }}
+{{ partial "nav.html" . }}
+{{ partial "hero.html" . }}
+{{ partial "marquee.html" . }}
+{{ partial "heat-battery.html" . }}
+{{ partial "charge.html" . }}
+{{ partial "materials.html" . }}
+{{ partial "field-validation.html" . }}
+{{ partial "safety.html" . }}
+{{ partial "gateway.html" . }}
+{{ partial "products.html" . }}
+{{ partial "industrial.html" . }}
+{{ partial "market.html" . }}
+{{ partial "compare.html" . }}
+{{ partial "team.html" . }}
+{{ partial "partners.html" . }}
+{{ partial "contact.html" . }}
+{{ partial "footer.html" . }}
+
+<script src="/js/main.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>

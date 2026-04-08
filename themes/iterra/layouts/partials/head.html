@@ -1,0 +1,11 @@
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{{ .Params.title | default .Site.Title }}</title>
+<meta content="{{ .Params.description | default .Site.Params.description }}" name="description"/>
+<meta content="{{ .Params.title | default .Site.Title }}" property="og:title"/>
+<meta content="{{ .Params.description | default .Site.Params.description }}" property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="https://fonts.googleapis.com/" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Barlow+Condensed:wght@400;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/css/main.css"/>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

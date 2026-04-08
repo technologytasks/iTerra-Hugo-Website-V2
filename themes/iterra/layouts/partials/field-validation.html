@@ -1,0 +1,23 @@
+{{ $s := .Params.field_validation }}
+<section class="field-section" id="validation">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+  <p class="section-body">{{ $s.body | markdownify }}</p>
+  <div class="field-grid">
+    <div class="charts-panel fade-up">
+      <img src="/{{ $s.chart_image }}" alt="Field trial data chart"/>
+      <div class="charts-caption">{{ $s.chart_caption }}</div>
+    </div>
+    <div class="feature-cards fade-up" style="transition-delay:0.1s">
+      <div style="font-size:0.95rem; color:rgba(245,240,232,0.65); line-height:1.8; margin-bottom:1.5rem;">
+        {{ $s.field_intro }}
+      </div>
+      {{ range $s.features }}
+      <div class="feature-card">
+        <div class="feature-title">{{ .icon }} {{ .title }}</div>
+        <div class="feature-body">{{ .body }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

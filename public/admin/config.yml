@@ -1,0 +1,326 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+# Uncomment below to enable local development with npx decap-server
+# local_backend: true
+
+collections:
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - name: "homepage"
+        label: "Homepage Content"
+        file: "content/_index.md"
+        fields:
+
+          # ── PAGE META ──────────────────────────────────────────────────
+          - { label: "Page Title", name: "title", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "text" }
+
+          # ── HERO ───────────────────────────────────────────────────────
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2 — Italic Word", name: "title_line2_italic", widget: "string" }
+              - { label: "Title Line 2 — Rest of Line", name: "title_line2_rest", widget: "string" }
+              - { label: "Subtitle Paragraph", name: "subtitle", widget: "text" }
+              - { label: "Background Image", name: "background_image", widget: "image" }
+              - label: "Stats (3 items)"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Number / Value", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+              - { label: "Scale Bar Label", name: "scale_label", widget: "string" }
+              - label: "Scale Items"
+                name: "scale_items"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+
+          # ── MARQUEE ────────────────────────────────────────────────────
+          - label: "Marquee Band"
+            name: "marquee"
+            widget: "object"
+            fields:
+              - label: "Marquee Items"
+                name: "items"
+                widget: "list"
+                field: { label: "Text", name: "item", widget: "string" }
+
+          # ── HEAT BATTERY ───────────────────────────────────────────────
+          - label: "Heat Battery Section"
+            name: "heat_battery"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body (supports **bold** and *italic*)", name: "body", widget: "text" }
+              - { label: "Flow Card Label", name: "flow_label", widget: "string" }
+              - { label: "Flow Card Body", name: "flow_body", widget: "string" }
+              - label: "Use Case Cards"
+                name: "use_cases"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+
+          # ── CHARGE SOURCES ─────────────────────────────────────────────
+          - label: "Charge Sources Section"
+            name: "charge"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Charge Cards (2)"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body (supports **bold**)", name: "body", widget: "text" }
+                  - { label: "Tag Label", name: "tag", widget: "string" }
+                  - label: "Tag Style"
+                    name: "tag_style"
+                    widget: "select"
+                    options: ["solar", "grid"]
+                  - label: "Card Type"
+                    name: "type"
+                    widget: "select"
+                    options: ["primary", "secondary"]
+              - label: "Stats Row (3 items)"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+                  - label: "Colour"
+                    name: "color"
+                    widget: "select"
+                    options: ["green", "flame", "ember", "steel", "muted"]
+
+          # ── MATERIALS ──────────────────────────────────────────────────
+          - label: "Materials Section"
+            name: "materials"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Title Line 3", name: "title_line3", widget: "string" }
+              - { label: "Intro Body", name: "body", widget: "text" }
+              - label: "Columns (2)"
+                name: "columns"
+                widget: "list"
+                fields:
+                  - { label: "Column Title", name: "title", widget: "string" }
+                  - { label: "Subtitle", name: "subtitle", widget: "string" }
+                  - { label: "Body Text (supports **bold**)", name: "body", widget: "text" }
+                  - label: "Bullet Points"
+                    name: "bullets"
+                    widget: "list"
+                    field: { label: "Bullet", name: "bullet", widget: "string" }
+              - label: "Photo Row (2 photos)"
+                name: "photos"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Caption", name: "caption", widget: "string" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+
+          # ── FIELD VALIDATION ───────────────────────────────────────────
+          - label: "Field Validation Section"
+            name: "field_validation"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Body (supports **bold**)", name: "body", widget: "text" }
+              - { label: "Chart Image", name: "chart_image", widget: "image" }
+              - { label: "Chart Caption", name: "chart_caption", widget: "string" }
+              - { label: "Field Trial Intro Text", name: "field_intro", widget: "text" }
+              - label: "Feature Cards"
+                name: "features"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+
+          # ── SAFETY ─────────────────────────────────────────────────────
+          - label: "Safety & Maintenance Section"
+            name: "safety"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Feature Cards"
+                name: "features"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+
+          # ── GATEWAY ────────────────────────────────────────────────────
+          - label: "Smart Gateway Section"
+            name: "gateway"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Body Paragraph 1", name: "body_1", widget: "text" }
+              - { label: "Body Paragraph 2", name: "body_2", widget: "text" }
+              - label: "Flow Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
+                  - { label: "Step Label", name: "label", widget: "string" }
+                  - { label: "Step Text (supports **bold**)", name: "text", widget: "text" }
+
+          # ── PRODUCTS ───────────────────────────────────────────────────
+          - label: "Products Section"
+            name: "products"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Product Cards"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "kWh Number (display)", name: "kwh", widget: "string" }
+                  - { label: "Unit Label", name: "unit", widget: "string" }
+                  - { label: "Product Name", name: "name", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - { label: "Status Badge Text", name: "status", widget: "string" }
+                  - label: "Status Badge Style"
+                    name: "status_style"
+                    widget: "select"
+                    options: ["trial", "scaling", "dev"]
+
+          # ── INDUSTRIAL ─────────────────────────────────────────────────
+          - label: "Industrial Integration Section"
+            name: "industrial"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Intro Body", name: "body", widget: "text" }
+              - label: "Industry Sectors (4 cards)"
+                name: "sectors"
+                widget: "list"
+                fields:
+                  - { label: "Title (with emoji + temp range)", name: "title", widget: "string" }
+                  - { label: "Subtitle / Tagline", name: "subtitle", widget: "string" }
+                  - { label: "Body Text", name: "body", widget: "text" }
+
+          # ── MARKET ─────────────────────────────────────────────────────
+          - label: "Market Section"
+            name: "market"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Body Paragraph 1", name: "body_1", widget: "text" }
+              - { label: "Body Paragraph 2", name: "body_2", widget: "text" }
+              - { label: "Body Paragraph 3", name: "body_3", widget: "text" }
+              - label: "Stat Boxes (4)"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Number / Value", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          # ── COMPARE ────────────────────────────────────────────────────
+          - label: "Comparison Table Section"
+            name: "compare"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Table Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - { label: "Company Name", name: "company", widget: "string" }
+                  - { label: "Scale", name: "scale", widget: "string" }
+                  - { label: "Temperature", name: "temperature", widget: "string" }
+                  - { label: "Target Market", name: "market", widget: "string" }
+                  - { label: "Manufacturing Location", name: "manufacturing", widget: "string" }
+                  - { label: "Highlight Row (iTerra)?", name: "highlight", widget: "boolean", default: false }
+
+          # ── TEAM ───────────────────────────────────────────────────────
+          - label: "Team Section"
+            name: "team"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - label: "Team Members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - { label: "Full Name", name: "name", widget: "string" }
+                  - { label: "Role / Title", name: "role", widget: "string" }
+                  - { label: "Photo", name: "photo", widget: "image" }
+                  - { label: "Bio", name: "bio", widget: "text" }
+
+          # ── PARTNERS ───────────────────────────────────────────────────
+          - label: "Partners Section"
+            name: "partners"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title Line 1", name: "title_line1", widget: "string" }
+              - { label: "Title Line 2", name: "title_line2", widget: "string" }
+              - { label: "Intro Body", name: "body", widget: "text" }
+              - label: "Partner Cards"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Label (e.g. Manufacturing Partner · 🇵🇰)", name: "label", widget: "string" }
+                  - { label: "Partner Name", name: "name", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          # ── CONTACT ────────────────────────────────────────────────────
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading Title", name: "title", widget: "text" }
+              - { label: "Subtitle / Email display", name: "subtitle", widget: "string" }
+              - { label: "Email Address (mailto)", name: "email", widget: "string" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+              - label: "Location Tags"
+                name: "locations"
+                widget: "list"
+                field: { label: "Location", name: "location", widget: "string" }
+
+          # ── FOOTER ─────────────────────────────────────────────────────
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Copyright Notice", name: "copyright", widget: "string" }
+              - { label: "IP / Trademark Notice", name: "ip_notice", widget: "string" }

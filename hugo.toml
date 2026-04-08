@@ -1,0 +1,14 @@
+baseURL = "https://iterra.ch/"
+languageCode = "en-us"
+title = "iTerra ThermoVolt — Pakistan's Thermal Battery"
+theme = "iterra"
+
+[params]
+  description = "iTerra ThermoVolt builds high-temperature ceramic thermal batteries in Pakistan — from 12 kWh solar geysers to multi-MWh industrial process-heat storage, locally manufactured with MRV-ready telemetry."
+  ogTitle = "iTerra ThermoVolt — Pakistan's Thermal Battery"
+  ogDescription = "High-temperature ceramic thermal storage for heat — from 12 kWh residential geysers to scalable industrial process-heat batteries."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

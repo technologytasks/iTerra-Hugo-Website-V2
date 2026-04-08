@@ -1,0 +1,24 @@
+{{ $s := .Params.industrial }}
+<section class="materials-section" id="industrial">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+  <p class="section-body" style="margin-bottom:3rem;">{{ $s.body }}</p>
+  <div class="materials-two-col">
+    {{ range $i, $sec := first 2 $s.sectors }}
+    <div class="materials-col fade-up" {{ if gt $i 0 }}style="transition-delay:0.08s"{{ end }}>
+      <div class="materials-col-title">{{ $sec.title }}</div>
+      <div class="materials-col-sub">{{ $sec.subtitle }}</div>
+      <p class="materials-col-body">{{ $sec.body }}</p>
+    </div>
+    {{ end }}
+  </div>
+  <div class="materials-two-col" style="margin-top:1.5rem">
+    {{ range $i, $sec := after 2 $s.sectors }}
+    <div class="materials-col fade-up" {{ if gt $i 0 }}style="transition-delay:0.08s"{{ end }}>
+      <div class="materials-col-title">{{ $sec.title }}</div>
+      <div class="materials-col-sub">{{ $sec.subtitle }}</div>
+      <p class="materials-col-body">{{ $sec.body }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>

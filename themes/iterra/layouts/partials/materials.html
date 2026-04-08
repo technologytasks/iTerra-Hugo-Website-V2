@@ -1,0 +1,26 @@
+{{ $s := .Params.materials }}
+<section class="materials-section" id="materials">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}<br/>{{ $s.title_line3 }}</h2>
+  <p class="section-body" style="margin-bottom:3rem;">{{ $s.body }}</p>
+  <div class="materials-two-col">
+    {{ range $i, $col := $s.columns }}
+    <div class="materials-col fade-up" {{ if gt $i 0 }}style="transition-delay:0.08s"{{ end }}>
+      <div class="materials-col-title">{{ $col.title }}</div>
+      <div class="materials-col-sub">{{ $col.subtitle }}</div>
+      {{ $col.body | markdownify }}
+      <ul class="materials-bullets">
+        {{ range $col.bullets }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+  <div class="materials-photo-row">
+    {{ range $i, $photo := $s.photos }}
+    <figure class="materials-photo fade-up" {{ if gt $i 0 }}style="transition-delay:0.08s"{{ end }}>
+      <img src="/{{ $photo.image }}" alt="{{ $photo.alt }}"/>
+      <figcaption>{{ $photo.caption }}</figcaption>
+    </figure>
+    {{ end }}
+  </div>
+</section>

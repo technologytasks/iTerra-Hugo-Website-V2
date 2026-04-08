@@ -1,0 +1,7 @@
+{{ $m := .Params.marquee }}
+<div class="marquee-band">
+  <div class="marquee-inner">
+    {{ range $m.items }}<span>{{ . }}</span><span>·</span>{{ end }}
+    {{ range $m.items }}<span>{{ . }}</span><span>·</span>{{ end }}
+  </div>
+</div>

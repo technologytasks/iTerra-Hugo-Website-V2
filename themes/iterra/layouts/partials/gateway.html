@@ -1,0 +1,22 @@
+{{ $s := .Params.gateway }}
+<section class="gateway-section" id="gateway">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+  <div class="gateway-grid">
+    <div class="fade-up">
+      <p class="section-body" style="margin-bottom:2rem;">{{ $s.body_1 }}</p>
+      <p class="section-body">{{ $s.body_2 }}</p>
+    </div>
+    <div class="gateway-flow fade-up" style="transition-delay:0.1s">
+      {{ range $s.steps }}
+      <div class="flow-step">
+        <div class="flow-icon">{{ .icon }}</div>
+        <div>
+          <div class="flow-label">{{ .label }}</div>
+          <div class="flow-text">{{ .text | markdownify }}</div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

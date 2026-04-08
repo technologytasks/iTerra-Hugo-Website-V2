@@ -1,0 +1,9 @@
+name = "iTerra ThermoVolt"
+license = "MIT"
+description = "Custom Hugo theme for iTerra ThermoVolt — Pakistan's Thermal Battery."
+homepage = "https://iterra.ch"
+min_version = "0.110.0"
+
+[author]
+  name = "iTerra"
+  email = "info@iterra.ch"

@@ -1,0 +1,10 @@
+{{ $s := .Params.contact }}
+<section class="contact-section" id="contact">
+  <div class="section-eyebrow" style="color:rgba(13,13,11,0.5);">{{ $s.eyebrow }}</div>
+  <h2 class="contact-title">{{ $s.title }}</h2>
+  <p class="contact-sub">{{ $s.subtitle }}</p>
+  <a class="contact-btn" href="mailto:{{ $s.email }}">{{ $s.button_text }}</a>
+  <div class="contact-locations">
+    {{ range $s.locations }}<span>{{ . }}</span>{{ end }}
+  </div>
+</section>

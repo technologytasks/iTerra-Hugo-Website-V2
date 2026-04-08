@@ -1,0 +1,20 @@
+{{ $s := .Params.heat_battery }}
+<section class="charge-section" id="heat-battery" style="padding-top:5rem;">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title }}</h2>
+  <p class="section-body" style="margin-bottom:2rem;">{{ $s.body | markdownify }}</p>
+  <div style="margin-bottom:2.5rem;">
+    <div class="gateway-card" style="grid-column:1/-1;">
+      <div class="gateway-title">{{ $s.flow_label }}</div>
+      <div class="gateway-body" style="font-size:1rem;">{{ $s.flow_body }}</div>
+    </div>
+  </div>
+  <div class="feature-grid">
+    {{ range $s.use_cases }}
+    <div class="feature-card">
+      <div class="feature-title">{{ .icon }} {{ .title }}</div>
+      <div class="feature-body">{{ .body }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>

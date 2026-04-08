@@ -1,0 +1,24 @@
+{{ $s := .Params.charge }}
+<section class="charge-section" id="battery">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+  <p class="section-body" style="margin-bottom:3rem;">{{ $s.body | markdownify }}</p>
+  <div class="charge-grid">
+    {{ range $i, $card := $s.cards }}
+    <div class="charge-card {{ $card.type }} fade-up" {{ if gt $i 0 }}style="transition-delay:0.15s"{{ end }}>
+      <div class="charge-icon">{{ $card.icon }}</div>
+      <div class="charge-title">{{ $card.title }}</div>
+      <div class="charge-body">{{ $card.body | markdownify }}</div>
+      <span class="charge-tag {{ $card.tag_style }}">{{ $card.tag }}</span>
+    </div>
+    {{ end }}
+  </div>
+  <div class="stats-row">
+    {{ range $s.stats }}
+    <div>
+      <div style="font-family:'Bebas Neue',sans-serif; font-size:2.5rem; color:var(--{{ .color }});">{{ .number }}</div>
+      <div style="font-family:'Barlow Condensed',sans-serif; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">{{ .label }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,20 @@
+{{ $s := .Params.market }}
+<section class="market-section" id="market">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <div class="market-grid">
+    <div class="fade-up">
+      <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+      <p class="section-body" style="margin-bottom:1.5rem;">{{ $s.body_1 }}</p>
+      <p class="section-body" style="margin-bottom:1.5rem;">{{ $s.body_2 }}</p>
+      <p class="section-body">{{ $s.body_3 }}</p>
+    </div>
+    <div class="context-stats fade-up" style="transition-delay:0.1s">
+      {{ range $s.stats }}
+      <div class="context-stat">
+        <span class="context-num">{{ .number }}</span>
+        <div class="context-label">{{ .label }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

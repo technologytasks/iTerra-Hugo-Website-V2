@@ -1,0 +1,14 @@
+{{ $s := .Params.safety }}
+<section class="field-section" id="safety">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title }}</h2>
+  <p class="section-body">{{ $s.body | markdownify }}</p>
+  <div class="feature-grid">
+    {{ range $s.features }}
+    <div class="feature-card">
+      <div class="feature-title">{{ .icon }} {{ .title }}</div>
+      <div class="feature-body">{{ .body }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>

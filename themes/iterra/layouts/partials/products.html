@@ -1,0 +1,17 @@
+{{ $s := .Params.products }}
+<section class="products-section" id="products">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+  <p class="section-body">{{ $s.body }}</p>
+  <div class="products-grid">
+    {{ range $i, $p := $s.items }}
+    <div class="product-card fade-up" {{ if gt $i 0 }}style="transition-delay:{{ mul $i 0.1 }}s"{{ end }}>
+      <div class="product-kwh">{{ $p.kwh }}</div>
+      <div class="product-unit">{{ $p.unit }}</div>
+      <div class="product-name">{{ $p.name }}</div>
+      <div class="product-desc">{{ $p.desc }}</div>
+      <span class="product-status status-{{ $p.status_style }}">{{ $p.status }}</span>
+    </div>
+    {{ end }}
+  </div>
+</section>

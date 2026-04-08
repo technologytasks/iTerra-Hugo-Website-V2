@@ -1,0 +1,30 @@
+{{ $h := .Params.hero }}
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-thermal">
+    <img src="/{{ $h.background_image }}" alt="Thermal ceramic storage"/>
+  </div>
+  <div class="hero-content fade-up visible">
+    <div class="hero-eyebrow">{{ $h.eyebrow }}</div>
+    <h1 class="hero-title">
+      {{ $h.title_line1 }}<br/>
+      <em>{{ $h.title_line2_italic }}</em>{{ $h.title_line2_rest }}
+    </h1>
+    <p class="hero-sub">{{ $h.subtitle }}</p>
+    <div class="hero-stats">
+      {{ range $h.stats }}
+      <div>
+        <div class="stat-num">{{ .number }}</div>
+        <div class="stat-label">{{ .label }}</div>
+      </div>
+      {{ end }}
+    </div>
+    <div aria-label="ThermoVolt scale range" class="hero-scale">
+      <span class="scale-label">{{ $h.scale_label }}</span>
+      {{ range $i, $item := $h.scale_items }}
+        {{ if gt $i 0 }}<span class="dot">·</span>{{ end }}
+        <span class="scale-item">{{ $item }}</span>
+      {{ end }}
+    </div>
+  </div>
+</section>

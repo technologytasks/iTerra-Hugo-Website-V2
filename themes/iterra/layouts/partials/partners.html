@@ -1,0 +1,15 @@
+{{ $s := .Params.partners }}
+<section class="partners-section" id="partners">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+  <p class="section-body">{{ $s.body }}</p>
+  <div class="partners-grid">
+    {{ range $i, $p := $s.items }}
+    <div class="partner-card fade-up" {{ if gt $i 0 }}style="transition-delay:0.15s"{{ end }}>
+      <div class="partner-label">{{ $p.label }}</div>
+      <div class="partner-name">{{ $p.name }}</div>
+      <div class="partner-desc">{{ $p.desc }}</div>
+    </div>
+    {{ end }}
+  </div>
+</section>
