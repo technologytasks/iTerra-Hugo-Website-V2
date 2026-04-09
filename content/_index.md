@@ -140,12 +140,10 @@ materials:
         For manifolds, mixers, valve modules, and flow channels, we use
         specialised engineering ceramics chosen for manufacturability
 
-        and thermal cycling performance. They can be formed into complex geometries, hold tight tolerances, and handle repeated
-
-        expansion/contraction with excellent dimensional stability.
+        and thermal cycling performance. They can be formed into complex geometries, hold tight tolerances, and handle repeated expansion/contraction with excellent dimensional stability.
 
 
-        Both material families are local, affordable, proven in kilns and furnaces for centuries, and recyclable at end of life.
+        Both material families are local, affordable (5% of Inconel600 steel price), proven in kilns and furnaces for centuries, and recyclable at end of life.
       bullets:
         - Complex shapes via local ceramic forming
         - Excellent thermal shock / cycling resilience
