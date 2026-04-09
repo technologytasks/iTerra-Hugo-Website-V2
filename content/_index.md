@@ -391,7 +391,7 @@ team:
       role: CEO & Co-Founder
       photo: images/reto.jpeg
       bio: PhD in Global Climate Change. 28 years with the ICRC as Country Director in
-        Afghanistan, Pakistan, and Iran. Based in Pakistan since 2007. Combines
+        Afghanistan, Pakistan, and Iran. Based in Pakistan since 2003. Combines
         deep operational experience with hands-on materials science and
         engineering expertise.
     - name: Farhana Stocker
