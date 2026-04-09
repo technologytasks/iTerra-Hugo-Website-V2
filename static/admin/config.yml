@@ -5,11 +5,7 @@ backend:
 media_folder: "static/images"
 public_folder: "/images"
 
-# Uncomment below to enable local development with npx decap-server
-# local_backend: true
-
 collections:
-  
   - name: "homepage"
     label: "Homepage"
     files:
@@ -21,7 +17,7 @@ collections:
           # ── PAGE META ──────────────────────────────────────────────────
           - { label: "Page Title", name: "title", widget: "string", required: false }
           - { label: "Meta Description", name: "description", widget: "text", required: false }
-		  - { label: "Site Logo", name: "logo", widget: "image", required: false }
+          - { label: "Site Logo", name: "logo", widget: "image", required: false }
           - { label: "Logo Alt Text", name: "logo_alt", widget: "string", required: false }
 
           # ── HERO ───────────────────────────────────────────────────────
@@ -29,10 +25,8 @@ collections:
             name: "hero"
             widget: "object"
             required: false
-            fields:              
-			  - { label: "Site Logo", name: "logo", widget: "image", required: false }
-              - { label: "Logo Alt Text", name: "logo_alt", widget: "string", required: false }
-			  - { label: "Eyebrow Text", name: "eyebrow", widget: "string", required: false }
+            fields:
+              - { label: "Eyebrow Text", name: "eyebrow", widget: "string", required: false }
               - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
               - { label: "Title Line 2 — Italic Word", name: "title_line2_italic", widget: "string", required: false }
               - { label: "Title Line 2 — Rest of Line", name: "title_line2_rest", widget: "string", required: false }
@@ -72,7 +66,7 @@ collections:
             fields:
               - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
               - { label: "Title", name: "title", widget: "string", required: false }
-              - { label: "Body (supports **bold** and *italic*)", name: "body", widget: "text", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
               - { label: "Flow Card Label", name: "flow_label", widget: "string", required: false }
               - { label: "Flow Card Body", name: "flow_body", widget: "string", required: false }
               - label: "Use Case Cards"
@@ -101,7 +95,7 @@ collections:
                 fields:
                   - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
                   - { label: "Title", name: "title", widget: "string", required: false }
-                  - { label: "Body (supports **bold**)", name: "body", widget: "text", required: false }
+                  - { label: "Body", name: "body", widget: "text", required: false }
                   - { label: "Tag Label", name: "tag", widget: "string", required: false }
                   - label: "Tag Style"
                     name: "tag_style"
@@ -144,7 +138,7 @@ collections:
                 fields:
                   - { label: "Column Title", name: "title", widget: "string", required: false }
                   - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-                  - { label: "Body Text (supports **bold**)", name: "body", widget: "text", required: false }
+                  - { label: "Body Text", name: "body", widget: "text", required: false }
                   - label: "Bullet Points"
                     name: "bullets"
                     widget: "list"
@@ -168,7 +162,7 @@ collections:
               - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
               - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
               - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
-              - { label: "Body (supports **bold**)", name: "body", widget: "text", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
               - { label: "Chart Image", name: "chart_image", widget: "image", required: false }
               - { label: "Chart Caption", name: "chart_caption", widget: "string", required: false }
               - { label: "Field Trial Intro Text", name: "field_intro", widget: "text", required: false }
@@ -182,7 +176,7 @@ collections:
                   - { label: "Body", name: "body", widget: "text", required: false }
 
           # ── SAFETY ─────────────────────────────────────────────────────
-          - label: "Safety & Maintenance Section"
+          - label: "Safety and Maintenance Section"
             name: "safety"
             widget: "object"
             required: false
@@ -217,7 +211,7 @@ collections:
                 fields:
                   - { label: "Icon (emoji)", name: "icon", widget: "string", required: false }
                   - { label: "Step Label", name: "label", widget: "string", required: false }
-                  - { label: "Step Text (supports **bold**)", name: "text", widget: "text", required: false }
+                  - { label: "Step Text", name: "text", widget: "text", required: false }
 
           # ── PRODUCTS ───────────────────────────────────────────────────
           - label: "Products Section"
@@ -255,12 +249,12 @@ collections:
               - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
               - { label: "Title Line 2", name: "title_line2", widget: "string", required: false }
               - { label: "Intro Body", name: "body", widget: "text", required: false }
-              - label: "Industry Sectors (4 cards)"
+              - label: "Industry Sectors"
                 name: "sectors"
                 widget: "list"
                 required: false
                 fields:
-                  - { label: "Title (with emoji + temp range)", name: "title", widget: "string", required: false }
+                  - { label: "Title", name: "title", widget: "string", required: false }
                   - { label: "Subtitle / Tagline", name: "subtitle", widget: "string", required: false }
                   - { label: "Body Text", name: "body", widget: "text", required: false }
 
@@ -276,7 +270,7 @@ collections:
               - { label: "Body Paragraph 1", name: "body_1", widget: "text", required: false }
               - { label: "Body Paragraph 2", name: "body_2", widget: "text", required: false }
               - { label: "Body Paragraph 3", name: "body_3", widget: "text", required: false }
-              - label: "Stat Boxes (4)"
+              - label: "Stat Boxes"
                 name: "stats"
                 widget: "list"
                 required: false
@@ -303,7 +297,7 @@ collections:
                   - { label: "Temperature", name: "temperature", widget: "string", required: false }
                   - { label: "Target Market", name: "market", widget: "string", required: false }
                   - { label: "Manufacturing Location", name: "manufacturing", widget: "string", required: false }
-                  - { label: "Highlight Row (iTerra)?", name: "highlight", widget: "boolean", required: false, default: false }
+                  - { label: "Highlight Row", name: "highlight", widget: "boolean", required: false, default: false }
 
           # ── TEAM ───────────────────────────────────────────────────────
           - label: "Team Section"
@@ -339,7 +333,7 @@ collections:
                 widget: "list"
                 required: false
                 fields:
-                  - { label: "Label (e.g. Manufacturing Partner · 🇵🇰)", name: "label", widget: "string", required: false }
+                  - { label: "Label", name: "label", widget: "string", required: false }
                   - { label: "Partner Name", name: "name", widget: "string", required: false }
                   - { label: "Description", name: "desc", widget: "text", required: false }
 
