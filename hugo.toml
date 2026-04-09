@@ -7,7 +7,9 @@ theme = "iterra"
   description = "iTerra ThermoVolt builds high-temperature ceramic thermal batteries in Pakistan — from 12 kWh solar geysers to multi-MWh industrial process-heat storage, locally manufactured with MRV-ready telemetry."
   ogTitle = "iTerra ThermoVolt — Pakistan's Thermal Battery"
   ogDescription = "High-temperature ceramic thermal storage for heat — from 12 kWh residential geysers to scalable industrial process-heat batteries."
-
+  logo = "images/iterra-logo.png"
+  logo_alt = "iTerra logo"
+  
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
