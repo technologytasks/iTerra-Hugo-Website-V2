@@ -9,6 +9,7 @@ public_folder: "/images"
 # local_backend: true
 
 collections:
+  
   - name: "homepage"
     label: "Homepage"
     files:
@@ -20,14 +21,18 @@ collections:
           # ── PAGE META ──────────────────────────────────────────────────
           - { label: "Page Title", name: "title", widget: "string", required: false }
           - { label: "Meta Description", name: "description", widget: "text", required: false }
+		  - { label: "Site Logo", name: "logo", widget: "image", required: false }
+          - { label: "Logo Alt Text", name: "logo_alt", widget: "string", required: false }
 
           # ── HERO ───────────────────────────────────────────────────────
           - label: "Hero Section"
             name: "hero"
             widget: "object"
             required: false
-            fields:
-              - { label: "Eyebrow Text", name: "eyebrow", widget: "string", required: false }
+            fields:              
+			  - { label: "Site Logo", name: "logo", widget: "image", required: false }
+              - { label: "Logo Alt Text", name: "logo_alt", widget: "string", required: false }
+			  - { label: "Eyebrow Text", name: "eyebrow", widget: "string", required: false }
               - { label: "Title Line 1", name: "title_line1", widget: "string", required: false }
               - { label: "Title Line 2 — Italic Word", name: "title_line2_italic", widget: "string", required: false }
               - { label: "Title Line 2 — Rest of Line", name: "title_line2_rest", widget: "string", required: false }
