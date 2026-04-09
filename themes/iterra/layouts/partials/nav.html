@@ -1,7 +1,7 @@
 <nav>
   <div class="nav-logo">
     {{ if .Params.logo }}
-    <img src="/{{ .Params.logo }}" alt="{{ .Params.logo_alt }}"/>
+    <img src="{{ .Params.logo }}" alt="{{ .Params.logo_alt }}"/>
     {{ else if .Site.Params.logo }}
     <img src="/{{ .Site.Params.logo }}" alt="{{ .Site.Params.logo_alt }}"/>
     {{ end }}
