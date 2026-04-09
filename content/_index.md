@@ -431,7 +431,7 @@ contact:
   title: iTerra welcomes development agencies, institutional investors, and
     Pakistani industrial partners.
   subtitle: info@iterra.ch · Dr. Reto Stocker
-  email: info@iterra.ch
+  email: amjad187@gmail.com info@iterra.ch
   button_text: Get in Touch
   locations:
     - 🇨🇭 Basel, Switzerland
