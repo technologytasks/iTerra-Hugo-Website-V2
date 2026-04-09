@@ -372,7 +372,7 @@ compare:
       temperature: ~650°C
       market: AU/EU power stations
       manufacturing: Australia
-      highlight: true
+      highlight: false
     - company: iTerra ThermoVolt
       scale: 12 kWh – 10 MWh
       temperature: 1,000°C
