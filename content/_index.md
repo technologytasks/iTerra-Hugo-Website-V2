@@ -436,6 +436,6 @@ contact:
     - 🇨🇭 Basel, Switzerland
     - 🇵🇰 Gujranwala, Pakistan
 footer:
-  copyright: © 2026 iTerra Innovative Energy Solutions
+  copyright: © 2025 iTerra Innovative Energy Solutions
   ip_notice: ThermoVolt™ — Patent & trademark protection pending
 ---
