@@ -426,16 +426,19 @@ partners:
         from mined earth to fired ceramic, stays within Pakistan.
       label: Manufacturing Partner · 🇵🇰 Gujranwala
       photo1: /images/partner1.jpeg
-    - label: Co-financing Partner · 🇨🇭 Switzerland
+    - photo2: /images/replic.png
+      photo1_caption: Evaluated and co-financed by the Swiss Government
+      photo2_caption: Evaluated and co-financed by the Swiss Government
+      photo1_alt: iTerra - Repic
+      photo2_alt: iTerra - REPIC
       name: REPIC Platform
       desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy
         Efficiency, and Resource Efficiency in International Cooperation. REPIC
         co-finances iTerra's pilot deployments across three Pakistani cities,
         validating ThermoVolt's performance and carbon credit generation under
         real field conditions.
+      label: Co-financing Partner · 🇨🇭 Switzerland
       photo1: /images/replic.png
-      photo1_caption: Evaluated and co-financed by the Swiss Government
-      photo1_alt: iTerra - Repic
 contact:
   eyebrow: Partner With Us
   title: iTerra welcomes development agencies, institutional investors, and
