@@ -433,6 +433,9 @@ partners:
         co-finances iTerra's pilot deployments across three Pakistani cities,
         validating ThermoVolt's performance and carbon credit generation under
         real field conditions.
+      photo1: /images/replic.png
+      photo1_caption: Evaluated and co-financed by the Swiss Government
+      photo1_alt: iTerra - Repic
 contact:
   eyebrow: Partner With Us
   title: iTerra welcomes development agencies, institutional investors, and
