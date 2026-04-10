@@ -385,7 +385,7 @@ team:
   title_line1: Three Decades of
   title_line2: Pakistan Experience
   members:
-    - name: Dr. Reto Stocker
+    - name: Reto Stocker (PhD)
       role: CEO & Co-Founder
       photo: images/reto.jpeg
       bio: PhD in Global Climate Change. 28 years with the ICRC as Country Director in
@@ -399,7 +399,7 @@ team:
         programme design and women's empowerment across Pakistan. Leads iTerra's
         social impact strategy, ensuring ThermoVolt deployments address the
         lived energy needs of Pakistani households.
-    - name: Dr. Irfan Yousuf
+    - name: Irfan Yousuf (PhD)
       role: Co-Founder & Energy Policy
       photo: images/irfan.jpeg
       bio: Pakistan's leading carbon credit specialist and former Energy Advisor to
