@@ -418,7 +418,7 @@ partners:
         Ismail Ceramics
       photo2_caption: High pressure pressing of complex  refractory bricks at Ismail Ceramics
       photo1_alt: iTerra - Ismail Ceramics
-      photo2_alt: iTerra - Ismail Ceramics
+      photo2_alt: "iTerra - Ismail Ceramics "
       name: Ismail Ceramics
       desc: Pakistan's leading refractory ceramics manufacturer. iTerra operates an
         embedded R&D laboratory within Ismail Ceramics' facility — from raw clay
