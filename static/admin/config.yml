@@ -336,6 +336,12 @@ collections:
                   - { label: "Label", name: "label", widget: "string", required: false }
                   - { label: "Partner Name", name: "name", widget: "string", required: false }
                   - { label: "Description", name: "desc", widget: "text", required: false }
+                  - { label: "Photo 1", name: "photo1", widget: "image", required: false }
+                  - { label: "Photo 1 Caption", name: "photo1_caption", widget: "string", required: false }
+                  - { label: "Photo 1 Alt Text", name: "photo1_alt", widget: "string", required: false }
+                  - { label: "Photo 2", name: "photo2", widget: "image", required: false }
+                  - { label: "Photo 2 Caption", name: "photo2_caption", widget: "string", required: false }
+                  - { label: "Photo 2 Alt Text", name: "photo2_alt", widget: "string", required: false }
 
           # ── CONTACT ────────────────────────────────────────────────────
           - label: "Contact Section"
