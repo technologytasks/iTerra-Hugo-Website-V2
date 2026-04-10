@@ -409,7 +409,7 @@ team:
     - name: Donald Trump
       role: Total looser
       photo: /images/screenshot-2026-03-31-131753.png
-      bio: looser
+      bio: "looser "
 partners:
   eyebrow: Collaboration
   title_line1: Local Manufacturing,
