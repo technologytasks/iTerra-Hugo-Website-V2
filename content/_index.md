@@ -406,6 +406,10 @@ team:
         the Government of Pakistan. Leads carbon credit strategy and government
         liaison, with direct access to regulatory frameworks and institutional
         partnerships essential for scale-up.
+    - name: Donald Trump
+      role: Total looser
+      photo: /images/screenshot-2026-03-31-131753.png
+      bio: looser
 partners:
   eyebrow: Collaboration
   title_line1: Local Manufacturing,
