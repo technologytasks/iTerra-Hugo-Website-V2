@@ -413,12 +413,19 @@ partners:
   body: Appropriate technology must be manufactured where it is deployed — using
     local materials, local skills, and local industry.
   items:
-    - label: Manufacturing Partner · 🇵🇰 Gujranwala
+    - photo2: /images/partner2.jpeg
+      photo1_caption: Refractory bricks entering a 300 foot 1420C tunnel kiln at
+        Ismail Ceramics
+      photo2_caption: High pressure pressing of complex  refractory bricks at Ismail Ceramics
+      photo1_alt: iTerra - Ismail Ceramics
+      photo2_alt: iTerra - Ismail Ceramics
       name: Ismail Ceramics
       desc: Pakistan's leading refractory ceramics manufacturer. iTerra operates an
         embedded R&D laboratory within Ismail Ceramics' facility — from raw clay
         formulation to production-scale manufacturing. The entire supply chain,
         from mined earth to fired ceramic, stays within Pakistan.
+      label: Manufacturing Partner · 🇵🇰 Gujranwala
+      photo1: /images/partner1.jpeg
     - label: Co-financing Partner · 🇨🇭 Switzerland
       name: REPIC Platform
       desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy
