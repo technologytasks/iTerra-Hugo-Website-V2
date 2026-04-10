@@ -426,11 +426,11 @@ partners:
         from mined earth to fired ceramic, stays within Pakistan.
       label: Manufacturing Partner · 🇵🇰 Gujranwala
       photo1: /images/partner1.jpeg
-    - photo2: /images/replic.png
+    - photo2: ""
       photo1_caption: Evaluated and co-financed by the Swiss Government
-      photo2_caption: Evaluated and co-financed by the Swiss Government
+      photo2_caption: ""
       photo1_alt: iTerra - Repic
-      photo2_alt: iTerra - REPIC
+      photo2_alt: ""
       name: REPIC Platform
       desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy
         Efficiency, and Resource Efficiency in International Cooperation. REPIC
