@@ -348,10 +348,10 @@ industrial:
       image: /images/pakistans-brick-kilns.jpeg
     - title: ♨️ Industrial Steam · 120 – 250 °C
       subtitle: Keep Your Pipes. Ditch Your Burner.
-      body: Gas-fired boilers are the largest and most volatile OPEX item across
+      body: "Gas-fired boilers are the largest and most volatile OPEX item across
         Pakistani industry. ThermoVolt displaces the burner while leaving
         existing steam distribution networks unchanged. Solar-charged steam —
-        fuel-free, price-stable, zero combustion emissions.
+        fuel-free, price-stable, zero combustion emissions.      "
       image: /images/industrial-steam-boiler.jpeg
 market:
   eyebrow: Pakistan's Energy Transition
