@@ -352,6 +352,7 @@ industrial:
         Pakistani industry. ThermoVolt displaces the burner while leaving
         existing steam distribution networks unchanged. Solar-charged steam —
         fuel-free, price-stable, zero combustion emissions.
+      image: /images/industrial-steam-boiler.jpeg
 market:
   eyebrow: Pakistan's Energy Transition
   title_line1: The Demand is
