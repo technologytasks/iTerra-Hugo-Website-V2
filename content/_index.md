@@ -175,7 +175,7 @@ small_mass:
     heat that would otherwise leak becomes the primary useful output. Parasitic
     loss and productive output are the same thing. The insulation boundary is
     drawn around the entire system, not just the core.
-  image: /images/whatsapp-image-2026-04-11-at-2.28.28-pm.jpeg
+  image: ""
   image_alt: Geyser cross section diagram
 field_validation:
   eyebrow: Field Validation
