@@ -269,6 +269,9 @@ collections:
                   - { label: "Title", name: "title", widget: "string", required: false }
                   - { label: "Subtitle / Tagline", name: "subtitle", widget: "string", required: false }
                   - { label: "Body Text", name: "body", widget: "text", required: false }
+                  - { label: "Image", name: "image", widget: "image", required: false }
+                  - { label: "Image Caption", name: "image_caption", widget: "string", required: false }
+                  - { label: "Image Alt Text", name: "image_alt", widget: "string", required: false }
 
           # ── MARKET ─────────────────────────────────────────────────────
           - label: "Market Section"
