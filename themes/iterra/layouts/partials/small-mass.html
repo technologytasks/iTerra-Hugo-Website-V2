@@ -1,0 +1,14 @@
+{{ $s := .Params.small_mass }}
+<section class="field-section" id="validation">
+  <div class="section-eyebrow">{{ $s.eyebrow }}</div>
+  <h2 class="section-title">{{ $s.title_line1 }}<br/>{{ $s.title_line2 }}</h2>
+  <div class="field-grid">
+    <div class="feature-cards fade-up" style="transition-delay:0.1s">
+      <p class="section-body">{{ $s.body_1 | markdownify }}</p>
+      <p class="section-body" style="margin-top:1.5rem;">{{ $s.body_2 | markdownify }}</p>
+    </div>
+    <div class="charts-panel fade-up">
+      <img src="{{ $s.image }}" alt="{{ $s.image_alt }}"/>
+    </div>
+  </div>
+</section> 
