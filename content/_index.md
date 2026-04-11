@@ -329,12 +329,14 @@ industrial:
         rejects. ThermoVolt supplies combustion-free hot air across drying and
         heat-setting lines — eliminating a direct quality and compliance
         liability for Pakistan's largest export sector.
+      image: /images/tissue-stenting.jpeg
     - title: ⚙️ Steel Re-Rolling · up to 750 °C
       subtitle: 15 kg of Free Steel per Ton Rolled
       body: The 400–800 °C gas-fired pre-heat zone produces up to 90% of total scale
         loss in re-rolling furnaces. ThermoVolt injects combustion-free hot air
         into the cold end of tunnel furnaces, eliminating oxidation through the
         most destructive temperature band.
+      image: /images/steel-mill.jpeg
     - title: 🧱 Brick & Ceramic Kilns · 700 – 1200 °C
       subtitle: From Smog Villain to Climate Pioneer
       body: Pakistan's bull's trench brick kilns and ceramic tunnel kilns burn coal
@@ -343,6 +345,7 @@ industrial:
         replacement — enabling emissions compliance, reduced fuel cost, and
         low-carbon product certification. iTerra operates inside Pakistan's
         leading refractory ceramics manufacturer.
+      image: /images/pakistans-brick-kilns.jpeg
     - title: ♨️ Industrial Steam · 120 – 250 °C
       subtitle: Keep Your Pipes. Ditch Your Burner.
       body: Gas-fired boilers are the largest and most volatile OPEX item across
