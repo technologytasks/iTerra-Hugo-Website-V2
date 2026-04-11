@@ -9,6 +9,12 @@
       <div class="materials-col-title">{{ $sec.title }}</div>
       <div class="materials-col-sub">{{ $sec.subtitle }}</div>
       <p class="materials-col-body">{{ $sec.body }}</p>
+      {{ if $sec.image }}
+      <figure class="materials-photo fade-up" style="margin-top:1.5rem;">
+        <img src="{{ $sec.image }}" alt="{{ $sec.image_alt }}"/>
+        <figcaption>{{ $sec.image_caption }}</figcaption>
+      </figure>
+      {{ end }}
     </div>
     {{ end }}
   </div>
@@ -18,6 +24,12 @@
       <div class="materials-col-title">{{ $sec.title }}</div>
       <div class="materials-col-sub">{{ $sec.subtitle }}</div>
       <p class="materials-col-body">{{ $sec.body }}</p>
+      {{ if $sec.image }}
+      <figure class="materials-photo fade-up" style="margin-top:1.5rem;">
+        <img src="{{ $sec.image }}" alt="{{ $sec.image_alt }}"/>
+        <figcaption>{{ $sec.image_caption }}</figcaption>
+      </figure>
+      {{ end }}
     </div>
     {{ end }}
   </div>
