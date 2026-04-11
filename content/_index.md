@@ -155,6 +155,26 @@ materials:
     - image: images/material_photo2.jpeg
       caption: Heat-processing components — slip-cast specialised ceramics
       alt: Slip-cast specialised ceramics
+small_mass:
+  eyebrow: Small-Mass Problem
+  title_line1: Solving the
+  title_line2: Small-Mass Problem
+  body_1: >
+    Every thermal battery faces a fundamental physics constraint. As the storage mass shrinks,
+    surface area decreases more slowly than volume — so small masses at 1,000°C lose heat
+    disproportionately through their surface. The conventional engineering response is more
+    insulation: thicker, heavier, costlier. The unit grows. The economics worsen.
+    This is why virtually every thermal storage system on the market targets utility scale.
+    The physics of small masses at high temperature appears to make residential deployment uneconomical.
+  body_2: >
+    **ThermoVolt resolves this differently.**
+    Rather than fighting parasitic heat loss with insulation alone, ThermoVolt's architecture
+    recovers it by design. The 1,000°C ceramic core is embedded within the water vessel — so
+    heat that would otherwise leak becomes the primary useful output. Parasitic loss and
+    productive output are the same thing. The insulation boundary is drawn around the entire
+    system, not just the core.
+  image: images/geyser_cross_section.jpeg
+  image_alt: Geyser cross section diagram      
 field_validation:
   eyebrow: Field Validation
   title_line1: Proven Under
