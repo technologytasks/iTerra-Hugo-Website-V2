@@ -438,7 +438,7 @@ partners:
         validating ThermoVolt's performance and carbon credit generation under
         real field conditions.
       label: Co-financing Partner · 🇨🇭 Switzerland
-      photo1: /images/replic.png
+      photo1: /images/repic.jpeg
 contact:
   eyebrow: Partner With Us
   title: iTerra welcomes development agencies, institutional investors, and
