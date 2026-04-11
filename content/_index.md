@@ -177,6 +177,7 @@ small_mass:
     drawn around the entire system, not just the core.
   image: /images/978x836.jpeg
   image_alt: Geyser cross section diagram
+  image_max_height: 400px
 field_validation:
   eyebrow: Field Validation
   title_line1: Proven Under
