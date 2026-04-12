@@ -78,6 +78,7 @@ charge:
 
         ThermoVolt charges directly from that stranded electricity â€” no grid connection, no DISCO contract, no inverter losses.
 
+
         Perfect for residential and peri-urban installations where rooftop PV is already installed.
       tag: No Grid Required
       tag_style: solar
@@ -91,6 +92,7 @@ charge:
         High renewable penetration creates midday surplus and drives dynamic grid tariffs.
 
         Thermal batteries can charge from the grid at lowest-tariff hours, then deliver heat for free all day.
+
 
         Enables urban tandoors, city hospitals, and hotels with no rooftop access to benefit from Pakistan's solar transition.
       tag: Grid-Compatible
@@ -121,9 +123,12 @@ materials:
         aluminium-bearing minerals that support alumina-based refractories.
 
         For storage, alumina wins on the physics of scale: high density combined with high solid heat capacity delivers strong energy density
+
         in a simple, durable material that is abundant and geopolitically de-risked.
 
+
         As an air-stable oxide ceramic, alumina refractories are engineered for furnace duty and long service life under thermal cycling.
+
         The ceramic core is designed for decades (target ~30 years); heaters and sensors are service parts.
       bullets:
         - High-temperature stability for bulk storage
@@ -134,7 +139,9 @@ materials:
       body: >
         For manifolds, mixers, valve modules, and flow channels, we use
         specialised engineering ceramics chosen for manufacturability
+
         and thermal cycling performance. They can be formed into complex geometries, hold tight tolerances, and handle repeated expansion/contraction with excellent dimensional stability.
+
 
         Both material families are local, affordable (5% of Inconel600 steel price), proven in kilns and furnaces for centuries, and recyclable at end of life.
       bullets:
@@ -322,14 +329,12 @@ industrial:
         rejects. ThermoVolt supplies combustion-free hot air across drying and
         heat-setting lines â€” eliminating a direct quality and compliance
         liability for Pakistan's largest export sector.
-      image: /images/tissue-stenting.jpeg
     - title: âš™ï¸ Steel Re-Rolling Â· up to 750 Â°C
       subtitle: 15 kg of Free Steel per Ton Rolled
       body: The 400â€“800 Â°C gas-fired pre-heat zone produces up to 90% of total scale
         loss in re-rolling furnaces. ThermoVolt injects combustion-free hot air
         into the cold end of tunnel furnaces, eliminating oxidation through the
         most destructive temperature band.
-      image: /images/steel-mill.jpeg
     - title: ðŸ§± Brick & Ceramic Kilns Â· 700 â€“ 1200 Â°C
       subtitle: From Smog Villain to Climate Pioneer
       body: Pakistan's bull's trench brick kilns and ceramic tunnel kilns burn coal
@@ -338,15 +343,12 @@ industrial:
         replacement â€” enabling emissions compliance, reduced fuel cost, and
         low-carbon product certification. iTerra operates inside Pakistan's
         leading refractory ceramics manufacturer.
-      image: /images/pakistans-brick-kilns.jpeg
     - title: â™¨ï¸ Industrial Steam Â· 120 â€“ 250 Â°C
       subtitle: Keep Your Pipes. Ditch Your Burner.
-      body: >
-        Gas-fired boilers are the largest and most volatile OPEX item across
+      body: Gas-fired boilers are the largest and most volatile OPEX item across
         Pakistani industry. ThermoVolt displaces the burner while leaving
         existing steam distribution networks unchanged. Solar-charged steam â€”
         fuel-free, price-stable, zero combustion emissions.
-      image: /images/industrial-steam-boiler.jpeg
 market:
   eyebrow: Pakistan's Energy Transition
   title_line1: The Demand is
@@ -431,28 +433,35 @@ partners:
   eyebrow: Collaboration
   title_line1: Local Manufacturing,
   title_line2: Swiss Partnership
-  body: Appropriate technology must be manufactured where it is deployed â€” using local materials, local skills, and local industry.
+  body: Appropriate technology must be manufactured where it is deployed â€” using
+    local materials, local skills, and local industry.
   items:
-    - label: "Manufacturing Partner Â· ðŸ‡µðŸ‡° Gujranwala"
+    - photo2: /images/partner2.jpeg
+      photo1_caption: Refractory bricks entering a 300 foot 1420C tunnel kiln at
+        Ismail Ceramics
+      photo2_caption: High pressure pressing of complex  refractory bricks at Ismail Ceramics
+      photo1_alt: iTerra - Ismail Ceramics
+      photo2_alt: "iTerra - Ismail Ceramics "
       name: Ismail Ceramics
-      desc: Pakistan's leading refractory ceramics manufacturer. iTerra operates an embedded R&D laboratory within Ismail Ceramics' facility â€” from raw clay formulation to production-scale manufacturing. The entire supply chain, from mined earth to fired ceramic, stays within Pakistan.
-      photo1: images/partner1.jpeg
-      photo1_caption: Pressing refractory elements
-      photo1_alt: Pressing refractory elements
-      photo1_style: ""
-      photo2: images/partner2.jpeg
-      photo2_caption: Kiln firing
-      photo2_alt: Kiln firing
-      photo2_style: ""
-    - label: "Co-financing Partner Â· ðŸ‡¨ðŸ‡­ Switzerland"
+      desc: Pakistan's leading refractory ceramics manufacturer. iTerra operates an
+        embedded R&D laboratory within Ismail Ceramics' facility â€” from raw clay
+        formulation to production-scale manufacturing. The entire supply chain,
+        from mined earth to fired ceramic, stays within Pakistan.
+      label: Manufacturing Partner Â· ðŸ‡µðŸ‡° Gujranwala
+      photo1: /images/partner1.jpeg
+    - photo2: ""
+      photo1_caption: Evaluated and co-financed by the Swiss Government
+      photo2_caption: ""
+      photo1_alt: iTerra - Repic
+      photo2_alt: ""
       name: REPIC Platform
-      desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy Efficiency, and Resource Efficiency in International Cooperation. REPIC co-finances iTerra's pilot deployments across three Pakistani cities, validating ThermoVolt's performance and carbon credit generation under real field conditions.
-      photo1: images/partner3.png
-      photo1_caption: REPIC Platform
-      photo1_alt: REPIC logo
-      photo1_style: "logo"
-      photo2_style: ""
-
+      desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy
+        Efficiency, and Resource Efficiency in International Cooperation. REPIC
+        co-finances iTerra's pilot deployments across three Pakistani cities,
+        validating ThermoVolt's performance and carbon credit generation under
+        real field conditions.
+      label: Co-financing Partner Â· ðŸ‡¨ðŸ‡­ Switzerland
+      photo1: /images/repic.jpeg
 contact:
   eyebrow: Partner With Us
   title: iTerra welcomes development agencies, institutional investors, and
@@ -463,7 +472,6 @@ contact:
   locations:
     - ðŸ‡¨ðŸ‡­ Basel, Switzerland
     - ðŸ‡µðŸ‡° Gujranwala, Pakistan
-
 footer:
   copyright: Â© 2026 iTerra Innovative Energy Solutions
   ip_notice: ThermoVoltâ„¢ â€” Patent & trademark protection pending
