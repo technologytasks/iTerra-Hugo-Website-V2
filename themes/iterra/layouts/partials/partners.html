@@ -10,16 +10,20 @@
       <div class="partner-name">{{ $p.name }}</div>
       <div class="partner-desc">{{ $p.desc }}</div>
       {{ if or $p.photo1 $p.photo2 }}
-      <div class="materials-photo-row">
+      <div class="materials-photo-row" style="margin-top: auto; padding-top: 1.5rem;">
         {{ if $p.photo1 }}
         <figure class="materials-photo fade-up">
-          <img src="{{ $p.photo1 }}" alt="{{ $p.photo1_alt }}"/>
+          <div class="img-wrapper">
+            <img src="{{ $p.photo1 }}" alt="{{ $p.photo1_alt }}"/>
+          </div>
           <figcaption>{{ $p.photo1_caption }}</figcaption>
         </figure>
         {{ end }}
         {{ if $p.photo2 }}
         <figure class="materials-photo fade-up" style="transition-delay:0.08s">
-          <img src="{{ $p.photo2 }}" alt="{{ $p.photo2_alt }}"/>
+          <div class="img-wrapper">
+            <img src="{{ $p.photo2 }}" alt="{{ $p.photo2_alt }}"/>
+          </div>
           <figcaption>{{ $p.photo2_caption }}</figcaption>
         </figure>
         {{ end }}
