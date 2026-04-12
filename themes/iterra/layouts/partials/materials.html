@@ -13,8 +13,8 @@
         {{ range $col.bullets }}<li>{{ . }}</li>{{ end }}
       </ul>
       {{ with index $s.photos $i }}
-      <figure class="materials-photo fade-up">
-        <img src="{{ .image }}" alt="{{ .alt }}" style="margin-top: 1.5rem;"/>
+      <figure class="materials-photo" style="margin-top: auto;">
+        <img src="{{ .image }}" alt="{{ .alt }}"/>
         <figcaption>{{ .caption }}</figcaption>
       </figure>
       {{ end }}
