@@ -438,11 +438,11 @@ partners:
   eyebrow: Collaboration
   title_line1: Local Manufacturing,
   title_line2: Swiss Partnership
-  body: Appropriate technology must be manufactured...
+  body: Appropriate technology must be manufactured where it is deployed — using local materials, local skills, and local industry.
   items:
     - label: "Manufacturing Partner · 🇵🇰 Gujranwala"
       name: Ismail Ceramics
-      desc: Pakistan's leading refractory...
+      desc: Pakistan's leading refractory ceramics manufacturer. iTerra operates an embedded R&D laboratory within Ismail Ceramics' facility — from raw clay formulation to production-scale manufacturing. The entire supply chain, from mined earth to fired ceramic, stays within Pakistan.
       photo1: images/partner1.jpeg
       photo1_caption: Pressing refractory elements
       photo1_alt: Pressing refractory elements
@@ -453,16 +453,14 @@ partners:
       photo2_style: ""
     - label: "Co-financing Partner · 🇨🇭 Switzerland"
       name: REPIC Platform
-      desc: The Swiss Interdepartmental Platform...
+      desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy Efficiency, and Resource Efficiency in International Cooperation. REPIC co-finances iTerra's pilot deployments across three Pakistani cities, validating ThermoVolt's performance and carbon credit generation under real field conditions.
       photo1: images/partner3.png
       photo1_caption: REPIC Platform
       photo1_alt: REPIC logo
       photo1_style: logo
-      photo2: ""
-      photo2_caption: ""
-      photo2_alt: "" 
-      photo2_style: "":
-  eyebrow: Partner With Us
+      photo2_style: ""
+
+contact:  eyebrow: Partner With Us
   title: iTerra welcomes development agencies, institutional investors, and
     Pakistani industrial partners.
   subtitle: info@iterra.ch · Dr. Reto Stocker
