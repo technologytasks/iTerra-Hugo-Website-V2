@@ -460,7 +460,7 @@ partners:
       photo1_style: logo
       photo2: ""
       photo2_caption: ""
-      photo2_alt: ""
+      photo2_alt: "" 
       photo2_style: "":
   eyebrow: Partner With Us
   title: iTerra welcomes development agencies, institutional investors, and
