@@ -953,3 +953,13 @@ footer {
   object-fit: contain;
   display: block;
 }
+
+/* ─── INDUSTRIAL COLUMN IMAGE ALIGNMENT ─── */
+.materials-two-col .materials-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.materials-two-col .materials-col .materials-photo {
+  margin-top: auto;
+}
