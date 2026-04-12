@@ -12,21 +12,21 @@
       {{ if or $p.photo1 $p.photo2 }}
       <div class="materials-photo-row" style="margin-top: auto; padding-top: 1.5rem;">
         {{ if $p.photo1 }}
-        <figure class="materials-photo fade-up">
-          <div class="img-wrapper">
-            <img src="{{ $p.photo1 }}" alt="{{ $p.photo1_alt }}"/>
-          </div>
-          <figcaption>{{ $p.photo1_caption }}</figcaption>
-        </figure>
-        {{ end }}
-        {{ if $p.photo2 }}
-        <figure class="materials-photo fade-up" style="transition-delay:0.08s">
-          <div class="img-wrapper">
-            <img src="{{ $p.photo2 }}" alt="{{ $p.photo2_alt }}"/>
-          </div>
-          <figcaption>{{ $p.photo2_caption }}</figcaption>
-        </figure>
-        {{ end }}
+<figure class="materials-photo fade-up">
+  <div class="img-wrapper {{ $p.photo1_style }}">
+    <img src="{{ $p.photo1 }}" alt="{{ $p.photo1_alt }}"/>
+  </div>
+  <figcaption>{{ $p.photo1_caption }}</figcaption>
+</figure>
+{{ end }}
+{{ if $p.photo2 }}
+<figure class="materials-photo fade-up" style="transition-delay:0.08s">
+  <div class="img-wrapper {{ $p.photo2_style }}">
+    <img src="{{ $p.photo2 }}" alt="{{ $p.photo2_alt }}"/>
+  </div>
+  <figcaption>{{ $p.photo2_caption }}</figcaption>
+</figure>
+{{ end }}
       </div>
       {{ end }}
     </div>
