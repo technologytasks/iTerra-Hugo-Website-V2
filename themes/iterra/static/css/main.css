@@ -731,7 +731,13 @@ section { padding: 6rem 5rem; }
   /*color: var(--muted);*/
   line-height: 1.7; 
 }
-
+.partners-section .materials-photo img {
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  background: white;
+  padding: 0.5rem;
+}
 /* ─── CONTACT ─── */
 .contact-section {
   background: var(--ember);
