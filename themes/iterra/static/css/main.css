@@ -953,3 +953,11 @@ footer {
   object-fit: contain;
   display: block;
 }
+/* ─── Material Column Image Alignment ─── */
+.materials-col {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.materials-col .materials-photo {
+  margin-top: auto;
+}
