@@ -14,7 +14,7 @@
       </ul>
       {{ with index $s.photos $i }}
       <figure class="materials-photo fade-up">
-        <img src="{{ .image }}" alt="{{ .alt }}"/>
+        <img src="{{ .image }}" alt="{{ .alt }}" style="margin-top: 1.5rem;"/>
         <figcaption>{{ .caption }}</figcaption>
       </figure>
       {{ end }}
