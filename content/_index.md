@@ -438,36 +438,30 @@ partners:
   eyebrow: Collaboration
   title_line1: Local Manufacturing,
   title_line2: Swiss Partnership
-  body: Appropriate technology must be manufactured where it is deployed — using
-    local materials, local skills, and local industry.
+  body: Appropriate technology must be manufactured...
   items:
-    - photo2: /images/partner2.jpeg
-      photo1_caption: Refractory bricks entering a 300 foot 1420C tunnel kiln at
-        Ismail Ceramics
-      photo2_caption: High pressure pressing of complex  refractory bricks at Ismail Ceramics
-      photo1_alt: iTerra - Ismail Ceramics
-      photo2_alt: "iTerra - Ismail Ceramics "
+    - label: "Manufacturing Partner · 🇵🇰 Gujranwala"
       name: Ismail Ceramics
-      desc: Pakistan's leading refractory ceramics manufacturer. iTerra operates an
-        embedded R&D laboratory within Ismail Ceramics' facility — from raw clay
-        formulation to production-scale manufacturing. The entire supply chain,
-        from mined earth to fired ceramic, stays within Pakistan.
-      label: Manufacturing Partner · 🇵🇰 Gujranwala
-      photo1: /images/partner1.jpeg
-    - photo2: ""
-      photo1_caption: Evaluated and co-financed by the Swiss Government
-      photo2_caption: ""
-      photo1_alt: iTerra - Repic
-      photo2_alt: ""
+      desc: Pakistan's leading refractory...
+      photo1: images/partner1.jpeg
+      photo1_caption: Pressing refractory elements
+      photo1_alt: Pressing refractory elements
+      photo1_style: ""
+      photo2: images/partner2.jpeg
+      photo2_caption: Kiln firing
+      photo2_alt: Kiln firing
+      photo2_style: ""
+    - label: "Co-financing Partner · 🇨🇭 Switzerland"
       name: REPIC Platform
-      desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy
-        Efficiency, and Resource Efficiency in International Cooperation. REPIC
-        co-finances iTerra's pilot deployments across three Pakistani cities,
-        validating ThermoVolt's performance and carbon credit generation under
-        real field conditions.
-      label: Co-financing Partner · 🇨🇭 Switzerland
-      photo1: /images/repic.jpeg
-contact:
+      desc: The Swiss Interdepartmental Platform...
+      photo1: images/partner3.png
+      photo1_caption: REPIC Platform
+      photo1_alt: REPIC logo
+      photo1_style: logo
+      photo2: ""
+      photo2_caption: ""
+      photo2_alt: ""
+      photo2_style: ""contact:
   eyebrow: Partner With Us
   title: iTerra welcomes development agencies, institutional investors, and
     Pakistani industrial partners.
