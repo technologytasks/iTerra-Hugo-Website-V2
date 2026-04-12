@@ -734,6 +734,7 @@ section { padding: 6rem 5rem; }
   line-height: 1.7; 
 }
 /* ─── PARTNER PHOTO FULL IMAGE ─── */
+/* ─── PARTNER PHOTO FULL IMAGE ─── */
 .partners-section .materials-photo {
   background: none;
 }
@@ -744,10 +745,25 @@ section { padding: 6rem 5rem; }
 }
 
 .partners-section .materials-photo img {
-  /*height: 100%;*/
+  height: 100%;
   width: 100%;
-  object-fit: fill;
-  object-position: center;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Logo/white background images */
+.partners-section .materials-photo .img-wrapper.logo {
+  background: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners-section .materials-photo .img-wrapper.logo img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
 /* ─── CONTACT ─── */
 .contact-section {
