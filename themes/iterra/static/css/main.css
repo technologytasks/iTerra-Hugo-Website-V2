@@ -693,7 +693,11 @@ section { padding: 6rem 5rem; }
   color: var(--ember);
   margin-bottom: 1rem;
 }
-.team-bio { font-size: 0.83rem; color: var(--muted); line-height: 1.7; }
+.team-bio { 
+  font-size: 0.83rem; 
+  /*color: var(--muted);*/ 
+  line-height: 1.7; 
+}
 
 /* ─── PARTNERS ─── */
 .partners-section { background: var(--coal); }
@@ -722,7 +726,11 @@ section { padding: 6rem 5rem; }
   color: var(--warm-white);
   margin-bottom: 1rem;
 }
-.partner-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.7; }
+.partner-desc { 
+  font-size: 0.88rem; 
+  /*color: var(--muted);*/
+  line-height: 1.7; 
+}
 
 /* ─── CONTACT ─── */
 .contact-section {
