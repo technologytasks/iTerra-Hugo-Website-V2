@@ -994,3 +994,10 @@ footer {
 .materials-col .materials-photo {
   margin-top: auto;
 }
+#small-mass .charts-panel img {
+  width: 100%;
+  height: 500px !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  display: block;
+}
