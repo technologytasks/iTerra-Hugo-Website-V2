@@ -352,7 +352,7 @@ section { padding: 6rem 5rem; }
 }
 .section-body {
   font-size: 1rem;
-  color: rgba(245,240,232,0.65);
+  /*color: rgba(245,240,232,0.65);*/
   max-width: 640px;
   line-height: 1.8;
 }
