@@ -744,7 +744,7 @@ section { padding: 6rem 5rem; }
 .partners-section .materials-photo img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
   object-position: center;
 }
 /* ─── CONTACT ─── */
