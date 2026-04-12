@@ -711,6 +711,8 @@ section { padding: 6rem 5rem; }
   background: var(--graphite);
   border: 1px solid var(--ash);
   padding: 2.5rem;
+  display: flex !important;
+  flex-direction: column !important;
 }
 .partner-label {
   font-family: 'Barlow Condensed', sans-serif;
