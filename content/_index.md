@@ -1,7 +1,8 @@
 ---
 title: iTerra ThermoVolt — Pakistan's Thermal Battery
-description: iTerra ThermoVolt builds high-temperature ceramic thermal batteries
-  in Pakistan.
+description: iTerra is a Swiss-Pakistani clean energy startup pioneering
+  high-temperature thermal storage to replace gas and LPG dependency in
+  Pakistan's homes and industry.
 logo: /images/iterra-logo.png
 logo_alt: iTerra logo
 hero:
