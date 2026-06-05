@@ -460,9 +460,10 @@ partners:
       name: REPIC Platform
       desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy
         Efficiency, and Resource Efficiency in International Cooperation. REPIC
-        co-finances iTerra's pilot deployments across three Pakistani cities,
-        validating ThermoVolt's performance and carbon credit generation under
-        real field conditions.
+        co-finances iTerra’s pilot deployments across three Pakistani cities,
+        supporting the demonstration of ThermoVolt’s performance under real
+        field conditions and generating operational data for future scale-up and
+        impact assessment.
       photo1: /images/repic.jpeg
       photo1_caption: REPIC Platform
       photo1_alt: REPIC logo
