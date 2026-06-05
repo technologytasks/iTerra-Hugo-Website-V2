@@ -1,8 +1,8 @@
 ---
 title: iTerra ThermoVolt — Pakistan's Thermal Battery
 description: iTerra is a Swiss-Pakistani clean energy startup pioneering
-  high-temperature thermal storage to replace gas and LPG dependency in
-  Pakistan's homes and industry.
+  high-temperature thermal storage to replace fossil fuel dependency in homes,
+  SMEs, and industry.
 logo: /images/iterra-logo.png
 logo_alt: iTerra logo
 hero:
@@ -476,7 +476,9 @@ partners:
       photo2_style: ""
 contact:
   eyebrow: Partner With Us
-  title: iTerra welcomes development agencies,  and Pakistani industrial partners.
+  title: iTerra welcomes development partners, Government energy policymakers,
+    industrial operators, and research institutions committed to Pakistan's
+    renewable transition.
   subtitle: info@iterra.ch · Dr. Reto Stocker
   email: info@iterra.ch
   button_text: Get in Touch
