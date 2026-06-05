@@ -9,9 +9,9 @@ hero:
   eyebrow: Pakistan · Switzerland
   background_image: images/bg.jpeg
   scale_items:
-    - 12 kWh (home)
-    - 80 kWh (tandoor & tawa for carob free cooking)
-    - 400 kWh (industrial module)
+    - 12 kWh (residential geyser)
+    - 80 kWh (commercial carbon free cooking)
+    - 400 kWh (industrial heat module)
     - 10 MWh (container-scale)
   title_line1: Heat is the battery.
   subtitle: ThermoVolt stores electricity as heat in locally manufactured
