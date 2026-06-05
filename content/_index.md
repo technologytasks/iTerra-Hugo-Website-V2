@@ -10,6 +10,7 @@ hero:
   background_image: images/bg.jpeg
   scale_items:
     - 12 kWh (residential geyser)
+    - 36 kWh (commercial geyser)
     - 80 kWh (commercial carbon free cooking)
     - 400 kWh (industrial heat module)
     - 10 MWh (container-scale)
@@ -304,8 +305,7 @@ products:
       status_style: scaling
     - kwh: 80+
       unit: kWh
-      name: Carbon Free Commercial Cooking (Cooking Range, Tandoor, Tawa, Hot Water,
-        Steam)
+      name: "Carbon Free Commercial Cooking "
       desc: Carbon-free commercial cooking. A single thermal core powers cooking
         ranges, tandoors, tawas, steam, and hot water for street food stalls,
         restaurants, bakeries and commercial kitchens — eliminating daily gas
@@ -316,9 +316,11 @@ products:
     - kwh: 400+
       unit: kWh · Industrial
       name: Modular Battery
-      desc: Hexagonal-module, single and double stack industrial battery. Scalable to
-        10 MWh per container. Process heat up to 800C for textiles, food
-        processing, ceramics firing.
+      desc: >
+        Hexagonal-module, single and double stack industrial battery. Scalable
+        to 10 MWh per container. Process heat up to 800°C — direct for textiles,
+        food processing and steam, or as zonal pre-heat for higher-temperature
+        kiln firing.
       status: Development
       status_style: dev
 industrial:
@@ -422,9 +424,9 @@ team:
     - name: Reto Stocker (PhD)
       role: CEO & Co-Founder
       photo: images/reto.jpeg
-      bio: PhD in Global Climate Change. 28 years with the ICRC as Country Director in
-        Afghanistan, Pakistan, and Iran. Based in Pakistan since 2003. Combines
-        deep operational experience with hands-on materials science and
+      bio: PhD in Global Climate Change. 29 years with the ICRC as Country Director in
+        Afghanistan, Pakistan, and Iran. Based in the Pakistan since 2003.
+        Combines deep operational experience with hands-on materials science and
         engineering expertise.
     - name: Farhana Stocker
       role: Co-Founder & Social Impact
@@ -448,16 +450,19 @@ partners:
     local materials, local skills, and local industry.
   items:
     - photo2: images/partner2.jpeg
-      photo1_caption: Pressing refractory elements
-      photo2_caption: Kiln firing
-      photo1_alt: Pressing refractory elements
-      photo2_alt: Kiln firing
+      photo1_caption: Kiln firing refractory elements
+      photo2_caption: "Pressing refractory elements "
+      photo1_alt: Kiln firing refractory elements at 1380C in a 320' tunnel kiln
+      photo2_alt: Pressing refractory elements at a 1500 ton press
       name: Ismail Ceramics
       photo1_style: ""
-      desc: Pakistan's leading refractory ceramics manufacturer. iTerra operates an
+      desc: >-
+        Pakistan's leading refractory ceramics manufacturer. iTerra operates an
         embedded R&D laboratory within Ismail Ceramics' facility — from raw clay
         formulation to production-scale manufacturing. The entire supply chain,
         from mined earth to fired ceramic, stays within Pakistan.
+
+        www.ismailceramics.com
       photo2_style: ""
       label: Manufacturing Partner · 🇵🇰 Gujranwala
       photo1: images/partner1.jpeg
