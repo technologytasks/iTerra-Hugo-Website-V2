@@ -55,8 +55,10 @@ heat_battery:
         grid, dispatched as heat on demand.
     - icon: 🏪
       title: Small Business
-      body: Guest houses, kitchens, laundries, workshops — scalable heat storage that
-        replaces unreliable gas and expensive diesel.
+      body: >
+        Carbon-free cooking, hot water, and process heat for street food stalls,
+        restaurants, bakeries, guest houses, and workshops — replacing daily gas
+        and expensive diesel.
     - icon: 🏭
       title: Industrial
       body: Modular process heat (hot air / steam) from hundreds of kWh to multi‑MWh —
@@ -139,11 +141,20 @@ materials:
     - title: "Heat Processing: Specialised Ceramics"
       subtitle: Shaped components that manage airflow, mixing, and heat exchange
       body: >
-        For manifolds, mixers, valve modules, and flow channels, we use
-        specialised engineering ceramics chosen for manufacturability and
-        thermal cycling performance. They can be formed into complex geometries,
-        hold tight tolerances, and handle repeated expansion/contraction with
-        excellent dimensional stability.
+        Heat Processing: Specialised Ceramics
+
+        Shaped components that manage airflow, mixing, and heat exchange
+
+        For the components that move and distribute heat, we use specialised engineering ceramics chosen for manufacturability and thermal-cycling performance. They can be formed into complex geometries, hold tight tolerances, and handle repeated expansion and contraction with excellent dimensional stability.
+
+        Both material families are local, affordable (a fraction of high-nickel superalloy cost), proven in kilns and furnaces for centuries, and recyclable at end of life.
+
+
+        Complex shapes via local ceramic forming
+
+        Excellent thermal-shock / cycling resilience
+
+        Low expansion for alignment and sealing
 
 
         Both material families are local, affordable (5% of Inconel600 steel price), proven in kilns and furnaces for centuries, and recyclable at end of life.
