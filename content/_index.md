@@ -302,11 +302,12 @@ products:
         residential capacity. Solar or grid charging.
       status: Scaling
       status_style: scaling
-    - kwh: "72"
+    - kwh: "80"
       unit: kWh · 400°C+
-      name: Thermal Tandoor
-      desc: Commercial tandoor for bakeries and restaurants. Eliminates daily gas. Can
-        charge from the grid at off-peak rates — no rooftop access needed.
+      name: Thermal Tandoor & Tawa
+      desc: Commercial tandoor and tawas for bakeries and restaurants. Eliminates
+        daily gas. Can charge from the grid at off-peak rates — no rooftop
+        access needed.
       status: Scaling
       status_style: scaling
     - kwh: 400+
