@@ -302,19 +302,23 @@ products:
         residential capacity. Solar or grid charging.
       status: Scaling
       status_style: scaling
-    - kwh: "80"
-      unit: kWh · 400°C+
-      name: Thermal Tandoor & Tawa
-      desc: Commercial tandoor and tawas for bakeries and restaurants. Eliminates
-        daily gas. Can charge from the grid at off-peak rates — no rooftop
-        access needed.
+    - kwh: 80+
+      unit: kWh
+      name: Carbon Free Commercial Cooking (Cooking Range, Tandoor, Tawa, Hot Water,
+        Steam)
+      desc: Carbon-free commercial cooking. A single thermal core powers cooking
+        ranges, tandoors, tawas, steam, and hot water for street food stalls,
+        restaurants, bakeries and commercial kitchens — eliminating daily gas
+        purchases, fuel-price shocks, and supply-chain dependency. Charge from
+        rooftop solar or grid off-peak rates.
       status: Scaling
       status_style: scaling
     - kwh: 400+
       unit: kWh · Industrial
-      name: Modular Hex Battery
-      desc: Hexagonal-module industrial battery. Scalable to 10 MWh per container.
-        Process heat for textiles, food processing, ceramics firing.
+      name: Modular Battery
+      desc: Hexagonal-module, single and double stack industrial battery. Scalable to
+        10 MWh per container. Process heat up to 800C for textiles, food
+        processing, ceramics firing.
       status: Development
       status_style: dev
 industrial:
@@ -472,8 +476,7 @@ partners:
       photo2_style: ""
 contact:
   eyebrow: Partner With Us
-  title: iTerra welcomes development agencies, institutional investors, and
-    Pakistani industrial partners.
+  title: iTerra welcomes development agencies,  and Pakistani industrial partners.
   subtitle: info@iterra.ch · Dr. Reto Stocker
   email: info@iterra.ch
   button_text: Get in Touch
