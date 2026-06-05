@@ -311,8 +311,8 @@ products:
         restaurants, bakeries and commercial kitchens — eliminating daily gas
         purchases, fuel-price shocks, and supply-chain dependency. Charge from
         rooftop solar or grid off-peak rates.
-      status: Scaling
-      status_style: scaling
+      status: Trial
+      status_style: trial
     - kwh: 400+
       unit: kWh · Industrial
       name: Modular Battery
