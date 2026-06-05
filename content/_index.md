@@ -10,14 +10,14 @@ hero:
   background_image: images/bg.jpeg
   scale_items:
     - 12 kWh (home)
-    - 36 kWh (small business)
-    - 72 kWh (tandoor)
+    - 80 kWh (tandoor & tawa for carob free cooking)
     - 400 kWh (industrial module)
     - 10 MWh (container-scale)
   title_line1: Heat is the battery.
   subtitle: ThermoVolt stores electricity as heat in locally manufactured
-    refractory ceramics — from 12 kWh residential geysers to multi-MWh
-    industrial process-heat batteries.
+    refractory ceramics — powering residential geysers, commercial kitchens, and
+    industrial process heat from 12 kWh to 10 MWh. Charge from solar or grid.
+    Carbon-free heat for homes, food, textiles, steel, and ceramics.
   title_line2_italic: Ceramic
   title_line2_rest: " is the cell."
   stats:
