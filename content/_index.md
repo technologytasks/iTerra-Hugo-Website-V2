@@ -460,11 +460,11 @@ partners:
   body: Appropriate technology must be manufactured where it is deployed — using
     local materials, local skills, and local industry.
   items:
-    - photo2: images/partner2.jpeg
-      photo1_caption: Kiln firing refractory elements
-      photo2_caption: "Pressing refractory elements "
-      photo1_alt: Kiln firing refractory elements at 1380C in a 320' tunnel kiln
-      photo2_alt: Pressing refractory elements at a 1500 ton press
+    - photo2: /images/partner1.jpeg
+      photo1_caption: "Pressing refractory elements "
+      photo2_caption: Kiln firing refractory elements
+      photo1_alt: Pressing refractory elements at a 1500 ton press
+      photo2_alt: Kiln firing refractory elements at 1380C in a 320' tunnel kiln
       name: Ismail Ceramics
       photo1_style: ""
       desc: >-
@@ -476,7 +476,7 @@ partners:
         www.ismailceramics.com
       photo2_style: ""
       label: Manufacturing Partner · 🇵🇰 Gujranwala
-      photo1: images/partner1.jpeg
+      photo1: /images/partner2.jpeg
     - label: Co-financing Partner · 🇨🇭 Switzerland
       name: REPIC Platform
       desc: The Swiss Interdepartmental Platform for Renewable Energy, Energy
