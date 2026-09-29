@@ -325,8 +325,8 @@ products:
         hit water geysers for restaurants, hotels, hospitals, canteens etc —
         eliminating daily gas purchases, fuel-price shocks, and supply-chain
         dependency. Charge from rooftop solar or grid off-peak rates.
-      status: Trial
-      status_style: trial
+      status: Development
+      status_style: dev
     - kwh: 200 - 5000
       unit: kWh · Industrial
       name: Modular Battery
