@@ -309,7 +309,7 @@ products:
       status: Field Trials
       status_style: trial
     - kwh: "50"
-      unit: kWh · Commercial Tawa, Tandoor or Chai/Salan Cooking Plate
+      unit: kWh · Commercial Tawa, Tandoor or Cooking Plate
       name: Project Heat - Carbon Free Commercial Cooking Device
       desc: A 50KWh battery powers a single cooking Device. At this stage, hot air
         powered Tawa's, tandoors and cooking plate prototypes are being tested,
