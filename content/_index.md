@@ -314,7 +314,8 @@ products:
       desc: A 50KWh battery powers a single cooking Device. At this stage, hot air
         powered Tawa's, tandoors and cooking plate prototypes are being tested,
         and additional platforms, such as frying stations or Pizza ovens will be
-        developed
+        developed. Replacing gas, charged from rooftop solar or grid off-peak
+        rates.
       status: Scaling
       status_style: scaling
     - kwh: "100"
@@ -322,9 +323,9 @@ products:
       name: Project Heat - Carbon Free Commercial Cooking Platform
       desc: Carbon-free commercial cooking. A single 100KWh or bigger thermal core
         powers a variety of cooking ranges, tandoors, tawas, steam boilers or
-        hit water geysers for restaurants, hotels, hospitals, canteens etc —
-        eliminating daily gas purchases, fuel-price shocks, and supply-chain
-        dependency. Charge from rooftop solar or grid off-peak rates.
+        hit water geysers for restaurants, hotels, hospitals, canteens etc, each
+        with its dedicated temperature adjustment. Replacing gas, charged from
+        rooftop solar or grid off-peak rates.
       status: Development
       status_style: dev
     - kwh: 200 - 5000
@@ -334,7 +335,8 @@ products:
         Hexagonal-module, single and double stack industrial battery. Scalable
         to 5 MWh per container. Process heat up to 800°C — direct for textiles,
         food processing and steam, or as zonal pre-heat for higher-temperature
-        kiln firing.
+        kiln firing. Replacing gas, furnace oil or coal, charged from rooftop
+        solar or grid off-peak rates.
       status: Development
       status_style: dev
 industrial:
