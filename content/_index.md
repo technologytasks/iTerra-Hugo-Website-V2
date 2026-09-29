@@ -310,7 +310,7 @@ products:
       status_style: trial
     - kwh: "50"
       unit: kWh · Commercial Tawa, Tandoor or Chai/Salan Cooking Plate
-      name: Project Heat - Carbon Free Commercial Cooking/Baking/Frying Platform
+      name: Project Heat - Carbon Free Commercial Cooking Device
       desc: A 50KWh battery powers a single cooking Device. At this stage, hot air
         powered Tawa's, tandoors and cooking plate prototypes are being tested,
         and additional platforms, such as frying stations or Pizza ovens will be
@@ -319,7 +319,7 @@ products:
       status_style: scaling
     - kwh: "100"
       unit: kWh
-      name: "Project Heat - Carbon Free Commercial Cooking "
+      name: Project Heat - Carbon Free Commercial Cooking Platform
       desc: Carbon-free commercial cooking. A single 100KWh or bigger thermal core
         powers a variety of cooking ranges, tandoors, tawas, steam boilers or
         hit water geysers for restaurants, hotels, hospitals, canteens etc —
