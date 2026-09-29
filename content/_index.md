@@ -294,8 +294,8 @@ gateway:
         Standard / Article 6), subject to methodology and program requirements.
 products:
   eyebrow: Product Range
-  title_line1: 12 kWh to 10 MWh —
-  title_line2: One Ceramic Core
+  title_line1: 12 kWh to 5 MWh —
+  title_line2: One Modular Ceramic Core
   body: Every product shares the same alumina refractory core, manufactured on the
     same line at Ismail Ceramics. Starting with residential, proving the
     technology, scaling upward.
