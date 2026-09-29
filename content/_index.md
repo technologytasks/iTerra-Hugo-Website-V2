@@ -427,8 +427,8 @@ compare:
       manufacturing: Australia
       highlight: false
     - company: iTerra ThermoVolt
-      scale: 12 kWh – 10 MWh
-      temperature: 1,000°C
+      scale: 12 kWh – 5 MWh
+      temperature: 1,000°C now, 1200°C planned
       market: Pakistan SMEs & households
       manufacturing: Gujranwala, Pakistan
       highlight: true
