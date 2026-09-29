@@ -429,7 +429,7 @@ compare:
     - company: iTerra ThermoVolt
       scale: 12 kWh – 5 MWh
       temperature: 1,000°C now, 1200°C planned
-      market: Pakistan SMEs & households
+      market: Pakistani Households, SMEs and Industry
       manufacturing: Gujranwala, Pakistan
       highlight: true
 team:
