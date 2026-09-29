@@ -263,9 +263,10 @@ gateway:
   eyebrow: Intelligent Charging
   title_line1: "The Smart Gateway:"
   title_line2: Charge at the Right Moment
-  body_1: The ThermoVolt controller monitors household electricity, PV output, and
-    grid tariffs in real time — routing surplus energy into the thermal battery
-    at precisely the moments when it would otherwise be wasted or cheapest.
+  body_1: The ThermoVolt Energy Gateway monitors household electricity, PV output,
+    and grid tariffs in real time — the ThermoVolt Controller routes surplus
+    energy into the thermal battery at precisely the moments when it would
+    otherwise be wasted or cheapest.
   body_2: As Pakistan's grid moves toward 60% renewables by 2030, dynamic tariffs
     will make this intelligence increasingly valuable. The controller is the
     bridge between Pakistan's evolving electricity market and the thermal
@@ -307,29 +308,31 @@ products:
         entirely. Charges from rooftop PV.
       status: Field Trials
       status_style: trial
-    - kwh: "36"
-      unit: kWh · Commercial
-      name: Commercial Geyser
-      desc: Hotels, guesthouses, hospitals, schools. Modular ceramic cores, triple
-        residential capacity. Solar or grid charging.
+    - kwh: "50"
+      unit: kWh · Commercial Tawa, Tandoor or Chai/Salan Cooking Plate
+      name: Project Heat - Carbon Free Commercial Cooking/Baking/Frying Platform
+      desc: A 50KWh battery powers a single cooking Device. At this stage, hot air
+        powered Tawa's, tandoors and cooking plate prototypes are being tested,
+        and additional platforms, such as frying stations or Pizza ovens will be
+        developed
       status: Scaling
       status_style: scaling
-    - kwh: 80+
+    - kwh: "100"
       unit: kWh
-      name: "Carbon Free Commercial Cooking "
-      desc: Carbon-free commercial cooking. A single thermal core powers cooking
-        ranges, tandoors, tawas, steam, and hot water for street food stalls,
-        restaurants, bakeries and commercial kitchens — eliminating daily gas
-        purchases, fuel-price shocks, and supply-chain dependency. Charge from
-        rooftop solar or grid off-peak rates.
+      name: "Project Heat - Carbon Free Commercial Cooking "
+      desc: Carbon-free commercial cooking. A single 100KWh or bigger thermal core
+        powers a variety of cooking ranges, tandoors, tawas, steam boilers or
+        hit water geysers for restaurants, hotels, hospitals, canteens etc —
+        eliminating daily gas purchases, fuel-price shocks, and supply-chain
+        dependency. Charge from rooftop solar or grid off-peak rates.
       status: Trial
       status_style: trial
-    - kwh: 400+
+    - kwh: 200 - 5000
       unit: kWh · Industrial
       name: Modular Battery
       desc: >
         Hexagonal-module, single and double stack industrial battery. Scalable
-        to 10 MWh per container. Process heat up to 800°C — direct for textiles,
+        to 5 MWh per container. Process heat up to 800°C — direct for textiles,
         food processing and steam, or as zonal pre-heat for higher-temperature
         kiln firing.
       status: Development
