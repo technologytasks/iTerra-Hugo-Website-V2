@@ -301,7 +301,7 @@ products:
     technology, scaling upward.
   items:
     - kwh: "12"
-      unit: kWh · Residential
+      unit: KWh · Residential
       name: Residential Geyser
       desc: 100 L integrated tank delivering ~300 L/day at ~60°C, with up to 5‑day
         reserve. SS304 double‑cylinder at 3 bar with PRV. Replaces LPG geyser
@@ -309,35 +309,35 @@ products:
       status: Field Trials
       status_style: trial
     - kwh: "50"
-      unit: kWh · Commercial Tawa, Tandoor or Cooking Plate
+      unit: KWh · Commercial Tawa, Tandoor or Cooking Plate
       name: Project Heat - Carbon Free Commercial Cooking Device
       desc: A 50KWh battery powers a single cooking Device. At this stage, hot air
-        powered Tawa's, tandoors and cooking plate prototypes are being tested,
-        and additional platforms, such as frying stations or Pizza ovens will be
+        powered tawa, tandoor and cooking plate prototypes are being tested, and
+        additional platforms, such as frying stations or Pizza ovens will be
         developed. Replacing gas, charged from rooftop solar or grid off-peak
         rates.
-      status: Scaling
+      status: scaling
       status_style: scaling
     - kwh: "100"
-      unit: kWh
+      unit: KWh
       name: Project Heat - Carbon Free Commercial Cooking Platform
       desc: Carbon-free commercial cooking. A single 100KWh or bigger thermal core
         powers a variety of cooking ranges, tandoors, tawas, steam boilers or
-        hit water geysers for restaurants, hotels, hospitals, canteens etc, each
-        with its dedicated temperature adjustment. Replacing gas, charged from
-        rooftop solar or grid off-peak rates.
-      status: Development
+        hot water geysers for restaurants, hotels, hospitals, canteens, etc,
+        each with its dedicated temperature adjustment. Replacing gas, charged
+        from rooftop solar or grid off-peak rates.
+      status: development
       status_style: dev
     - kwh: 200 - 5000
-      unit: kWh · Industrial
+      unit: KWh · Industrial
       name: Modular Battery
       desc: >
-        Hexagonal-module, single and double stack industrial battery. Scalable
-        to 5 MWh per container. Process heat up to 800°C — direct for textiles,
-        food processing and steam, or as zonal pre-heat for higher-temperature
-        kiln firing. Replacing gas, furnace oil or coal, charged from rooftop
-        solar or grid off-peak rates.
-      status: Development
+        Hexagonal-module, single and double stack industrial batteries. Scalable
+        to 5 MWh per 20' shipping container. Process heat output up to 900°C and
+        later on 1100C — direct for textiles, food processing and steam, or as
+        zonal pre-heat for higher-temperature kiln firing. Replacing gas,
+        furnace oil or coal, charged from rooftop solar or grid off-peak rates.
+      status: development
       status_style: dev
 industrial:
   eyebrow: Industrial Integration
