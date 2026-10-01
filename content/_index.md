@@ -270,6 +270,9 @@ gateway:
     will make this intelligence increasingly valuable. The controller is the
     bridge between Pakistan's evolving electricity market and the thermal
     battery at its core.
+  image: /images/smart-gateway-boards.jpg
+  image_caption: ThermoVolt controller and Energy Gateway boards — in-house PCB prototypes
+  image_alt: Two ThermoVolt control circuit boards with green terminal blocks on a workbench
   steps:
     - icon: ☀️
       label: PV Surplus Detection
