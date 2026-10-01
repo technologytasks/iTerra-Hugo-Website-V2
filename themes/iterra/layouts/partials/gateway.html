@@ -20,7 +20,7 @@
     </div>
   </div>
   {{ with $s.image }}
-  <figure class="materials-photo fade-up" style="margin-top:2.5rem;">
+  <figure class="materials-photo fade-up" style="margin:2.5rem auto 0; max-width:1160px;">
     <img src="{{ . }}" alt="{{ $s.image_alt }}" loading="lazy" style="height:auto; aspect-ratio:16/9;"/>
     {{ with $s.image_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
   </figure>
