@@ -165,7 +165,7 @@ materials:
     - image: images/material_photo1.jpeg
       caption: Storage core in practice — pressed refractory elements
       alt: Storage core — pressed refractory elements
-    - image: images/material_photo2.jpeg
+    - image: /images/whatsapp-image-2026-10-29-at-00.14.07.jpeg
       caption: Heat-processing components — slip-cast specialised ceramics
       alt: Slip-cast specialised ceramics
 small_mass:
