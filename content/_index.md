@@ -139,24 +139,15 @@ materials:
         - Local, abundant, non-toxic, recyclable
     - title: "Heat Processing: Specialised Ceramics"
       subtitle: Shaped components that manage airflow, mixing, and heat exchange
-      body: >
-        Heat Processing: Specialised Ceramics
+      body: >-
+        For the components that move and distribute heat, we use specialised
+        engineering ceramics chosen for manufacturability and thermal-cycling
+        performance. They can be formed into complex geometries, hold tight
+        tolerances, and handle repeated expansion and contraction with excellent
+        dimensional stability.
 
-        Shaped components that manage airflow, mixing, and heat exchange
-
-        For the components that move and distribute heat, we use specialised engineering ceramics chosen for manufacturability and thermal-cycling performance. They can be formed into complex geometries, hold tight tolerances, and handle repeated expansion and contraction with excellent dimensional stability.
 
         Both material families are local, affordable (a fraction of high-nickel superalloy cost), proven in kilns and furnaces for centuries, and recyclable at end of life.
-
-
-        Complex shapes via local ceramic forming
-
-        Excellent thermal-shock / cycling resilience
-
-        Low expansion for alignment and sealing
-
-
-        Both material families are local, affordable (5% of Inconel600 steel price), proven in kilns and furnaces for centuries, and recyclable at end of life.
       bullets:
         - Complex shapes via local ceramic forming
         - Excellent thermal shock / cycling resilience
