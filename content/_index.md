@@ -259,20 +259,9 @@ safety:
         support long tank life. Monitoring can flag abnormal behavior early for
         preventive maintenance.
 gateway:
-  eyebrow: Intelligent Charging
-  title_line1: "The Smart Gateway:"
-  title_line2: Charge at the Right Moment
-  body_1: The ThermoVolt Energy Gateway monitors household electricity, PV output,
-    and grid tariffs in real time — the ThermoVolt Controller routes surplus
-    energy into the thermal battery at precisely the moments when it would
-    otherwise be wasted or cheapest.
-  body_2: As Pakistan's grid moves toward 60% renewables by 2030, dynamic tariffs
-    will make this intelligence increasingly valuable. The controller is the
-    bridge between Pakistan's evolving electricity market and the thermal
-    battery at its core.
-  image: /images/smart-gateway-boards.jpg
   image_caption: ThermoVolt controller and Energy Gateway boards — in-house PCB prototypes
-  image_alt: Two ThermoVolt control circuit boards with green terminal blocks on a workbench
+  image_alt: Two ThermoVolt control circuit boards with green terminal blocks on a
+    workbench
   steps:
     - icon: ☀️
       label: PV Surplus Detection
@@ -294,6 +283,18 @@ gateway:
       text: 4G data stream records operational data that can support MRV of LPG or gas
         displacement. Designed to enable carbon-credit pathways (e.g., Gold
         Standard / Article 6), subject to methodology and program requirements.
+  eyebrow: Intelligent Charging
+  body_1: The ThermoVolt Energy Gateway monitors household electricity, PV output,
+    and grid tariffs in real time — the ThermoVolt Controller routes surplus
+    energy into the thermal battery at precisely the moments when it would
+    otherwise be wasted or cheapest.
+  body_2: As Pakistan's grid moves toward 60% renewables by 2030, dynamic tariffs
+    will make this intelligence increasingly valuable. The controller is the
+    bridge between Pakistan's evolving electricity market and the thermal
+    battery at its core.
+  title_line1: "The Smart Gateway:"
+  title_line2: Charge at the Right Moment
+  image: /images/smart-gateway-boards.jpg
 products:
   eyebrow: Product Range
   title_line1: 12 kWh to 5 MWh —
@@ -330,7 +331,7 @@ products:
         from rooftop solar or grid off-peak rates.
       status: development
       status_style: dev
-    - kwh: 200 - 5000
+    - kwh: 200 - 10'000
       unit: KWh · Industrial
       name: Modular Battery
       desc: >
