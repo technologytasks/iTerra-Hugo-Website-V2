@@ -12,7 +12,7 @@ hero:
     - 12 KWh (residential geyser)
     - 50 KWh (commercial carbon free cooking utilities)
     - 100 KWh + (commericail carob free cooking platform)
-    - 200 to 5000 MWh (industrial scale heat up to container size battery)
+    - 200 to 10'000KWh (industrial scale heat up to container size battery)
   title_line1: Heat is the battery.
   subtitle: ThermoVolt stores electricity as heat in locally manufactured
     refractory ceramics — powering residential geysers, commercial kitchens, and
